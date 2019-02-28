@@ -17,6 +17,7 @@ import java.util.Map;
  * @version V1.0
  **/
 @Controller
+@RequestMapping("/index")
 public class HelloWorld {
 
     @RequestMapping("/hello")
@@ -26,4 +27,58 @@ public class HelloWorld {
          map.put("hello","world");
          return  map;
      }
+
+    @RequestMapping("/index")
+    public String adminPage(){
+        return  "admin/index";
+    }
+
+    @RequestMapping("/uiButtons")
+    public String uiButtons(){
+        return  "admin/ui-buttons";
+    }
+
+    /**
+     * 基础数据表
+     * @return
+     */
+    @RequestMapping("/tables-data")
+    public String tablesData(){
+        return  "admin/tables-data";
+    }
+
+    /**
+     * 基础表单
+     * @return
+     */
+    @RequestMapping("/forms-basic")
+    public String  formsBasic(){
+        return  "admin/forms-basic";
+    }
+
+    /**
+     * 基础弹窗
+     * @return
+     */
+    @RequestMapping("/ui-modals")
+    public String  uiModals(){
+        return  "admin/ui-modals";
+    }
+    /**
+     * 登录
+     * @return
+     */
+    @RequestMapping("/page-login")
+    public String  pageLogin(){
+        return  "admin/page-login";
+    }
+    /**
+     * 注册
+     * @return
+     */
+    @RequestMapping("/page-register")
+    public String  pageRegister(){
+        return  "admin/page-register";
+    }
+
 }

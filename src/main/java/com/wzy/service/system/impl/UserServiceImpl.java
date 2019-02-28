@@ -1,6 +1,6 @@
 package com.wzy.service.system.impl;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.wzy.mapper.UserMapper;
 import com.wzy.entity.User;
 import com.wzy.service.system.UserService;

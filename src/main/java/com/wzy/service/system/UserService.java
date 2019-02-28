@@ -1,5 +1,6 @@
 package com.wzy.service.system;
 
+import com.baomidou.mybatisplus.service.IService;
 import com.wzy.entity.User;
 
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
  * @author Wzy
  * @version V1.0
  **/
-public interface UserService {
+public interface UserService extends IService<User> {
 
     List<User> selectCondition();
 }

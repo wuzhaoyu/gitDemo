@@ -1,10 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/resource/application.yml" line="7" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/resource/application.yml" line="11" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cce73c90-221c-41a9-9284-e8b1f0f52159" name="Default" comment="" />
+    <list default="true" id="cce73c90-221c-41a9-9284-e8b1f0f52159" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/WholeExceptionHandle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/config/DefinErrorConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/config/HandleGlobalException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/config/SimpleGlobalException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/ExceptionController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/assets/js/common/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/assets/js/jquery.cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/assets/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/assets/js/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/fonts/fontomas-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/fonts/fontomas-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/fonts/fontomas-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/fonts/fontomas-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/admin.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/64-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/avatar/64-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/logo.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/static/images/logo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/charts-chartjs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/charts-flot.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/charts-peity.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/font-fontawesome.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/font-themify.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/forms-advanced.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/forms-basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/maps-gmap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/maps-vector.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/page-login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/page-register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/pages-forget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/tables-basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/tables-data.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-alerts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-badges.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-buttons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-cards.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-grids.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-modals.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-progressbar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-switches.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-tabs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/ui-typgraphy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/admin/widgets.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/thyemleaf/add.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/thyemleaf/error.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/templates/thyemleaf/ok.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/AppTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/HttpTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/StreamTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/TestDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Triangle.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringBoot01_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringBoot01_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generate_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_support_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_1_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot01.iml" afterPath="$PROJECT_DIR$/SpringBoot01.iml" />
+      <change beforePath="$PROJECT_DIR$/logs/spring.log" afterPath="$PROJECT_DIR$/logs/spring.log" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/common/RedisUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/common/RedisUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/config/RedisConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/config/RedisConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/config/TomcatConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/HelloWorld.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/test/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/test/TestController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/UserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/service/system/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/service/system/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/service/system/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/service/system/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/application.yml" afterPath="$PROJECT_DIR$/src/main/resource/application.yml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/static/image/java.jpg" afterPath="$PROJECT_DIR$/src/main/resource/static/images/java.jpg" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/SystemApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/SystemApplication.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/common/RedisUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/common/RedisUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/common/Result.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/common/Result.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/common/ResultCode.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/common/ResultCode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/common/SystemConst$ProcessType.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/common/SystemConst$ProcessType.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/common/SystemConst.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/common/SystemConst.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/config/RedisConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/config/RedisConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/config/TomcatConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/controller/FileUpload/uploadContrller.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/controller/FileUpload/uploadContrller.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/controller/HelloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/controller/HelloWorld.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/controller/system/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/controller/system/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/controller/test/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/filter/FirstFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/filter/FirstFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/filter/SecondFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/filter/SecondFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/listen/FirstListener.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/listen/FirstListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/listen/SecondListener.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/listen/SecondListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/mapper/UserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/service/system/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/service/system/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/service/system/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/service/system/impl/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/servlet/FirstServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/servlet/FirstServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/servlet/SecondServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/wzy/servlet/SecondServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/image/java.jpg" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,76 +137,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SystemApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java">
+      <file leaf-file-name="WholeExceptionHandle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/WholeExceptionHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-              <folding>
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding>
-                <marker date="1550827249570" expanded="true" signature="598:618" ph="SELECT * fro... t_user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/RedisUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-416">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="561">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,33 +149,219 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemConst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/SystemConst.java">
+      <file leaf-file-name="ExceptionHandlerExceptionResolver.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="72">
+              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1549981392585" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1549981392585" expanded="false" signature="177:2628" ph="..." />
+                <marker date="1549981392585" expanded="true" signature="3713:4298" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="4408:4473" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="4564:4575" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="4611:4617" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="4721:4991" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="5079:5090" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="5120:5126" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="5242:5311" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="5407:5461" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="5571:5852" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="5944:5955" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="5987:5993" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="6081:6140" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="6205:6216" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="6246:6252" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="6352:6427" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="6496:6507" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="6545:6551" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="6649:6814" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="6903:6964" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="7033:7044" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="7075:7081" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="7120:7653" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="7706:9316" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="9420:9505" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="9587:10221" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="10307:11247" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="11440:13861" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="14007:15555" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/UserController.java">
+      <file leaf-file-name="WebMvcConfigurationSupport.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="1193">
+              <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+              <folding>
+                <marker date="1549981392585" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1549981392585" expanded="false" signature="173:4888" ph="..." />
+                <marker date="1549981392585" expanded="true" signature="6066:6073" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="6162:6223" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="6298:6309" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="6340:6346" ph=" }" />
+                <marker date="1549981392585" expanded="false" signature="6422:6433" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="6470:6476" ph=" }" />
+                <marker date="1549981392585" expanded="false" signature="6543:6554" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="6581:6587" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="6670:8263" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="8345:8403" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="8452:8949" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="9016:9023" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="9084:9320" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="9392:9399" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="9451:9628" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="9684:9846" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="9926:10366" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="10428:11153" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="11243:11250" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="11256:11275" ph="@{...}" />
+                <marker date="1549981392585" expanded="true" signature="11333:11967" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="12040:12047" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="12121:12384" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="12390:12409" ph="@{...}" />
+                <marker date="1549981392585" expanded="true" signature="12461:13339" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="13414:13421" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="13489:13958" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="13964:13983" ph="@{...}" />
+                <marker date="1549981392585" expanded="true" signature="14041:14342" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="14439:14446" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="14529:15834" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="15916:15974" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="16063:16531" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="16607:16618" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="16630:16636" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="16714:16721" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="16795:16981" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="17044:17051" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="17099:18005" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="18059:18070" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="18082:18088" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="18169:18389" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="18486:18493" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="18578:18808" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="18911:18918" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="18993:19430" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="19520:19527" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="19614:19621" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="19729:22269" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="22356:22506" ph="{...}" />
+                <marker date="1549981392585" expanded="false" signature="22582:22593" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="22632:22638" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="22725:22785" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="22860:23421" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="23528:23535" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="23639:23646" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="23760:24976" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="25068:25131" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="25185:26197" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="26272:26279" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="26356:26633" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="26693:26700" ph="{}" />
+                <marker date="1549981392585" expanded="true" signature="26706:26721" ph="@{...}" />
+                <marker date="1549981392585" expanded="false" signature="26791:26802" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="26842:26848" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="26861:27835" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="27903:28123" ph="{...}" />
+                <marker date="1549981392585" expanded="true" signature="27937:27948" ph="{}" />
+                <marker date="1549981392585" expanded="false" signature="27997:28012" ph=" { " />
+                <marker date="1549981392585" expanded="false" signature="28025:28035" ph=" }" />
+                <marker date="1549981392585" expanded="true" signature="28106:28117" ph="{}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerAdviceBean.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/ControllerAdviceBean.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="34" />
+              <folding>
+                <marker date="1549981394597" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1549981394597" expanded="false" signature="154:824" ph="..." />
+                <marker date="1549981394597" expanded="false" signature="1101:1112" ph=" { " />
+                <marker date="1549981394597" expanded="false" signature="1150:1156" ph=" }" />
+                <marker date="1549981394597" expanded="true" signature="1242:1294" ph="{...}" />
+                <marker date="1549981394597" expanded="true" signature="1377:2768" ph="{...}" />
+                <marker date="1549981394597" expanded="false" signature="2795:2806" ph=" { " />
+                <marker date="1549981394597" expanded="false" signature="2824:2830" ph=" }" />
+                <marker date="1549981394597" expanded="true" signature="2880:3097" ph="{...}" />
+                <marker date="1549981394597" expanded="true" signature="3131:3248" ph="{...}" />
+                <marker date="1549981394597" expanded="true" signature="3294:3404" ph="{...}" />
+                <marker date="1549981394597" expanded="false" signature="3476:3487" ph=" { " />
+                <marker date="1549981394597" expanded="false" signature="3532:3538" ph=" }" />
+                <marker date="1549981394597" expanded="true" signature="3580:3935" ph="{...}" />
+                <marker date="1549981394597" expanded="false" signature="3962:3973" ph=" { " />
+                <marker date="1549981394597" expanded="false" signature="4001:4007" ph=" }" />
+                <marker date="1549981394597" expanded="false" signature="4037:4048" ph=" { " />
+                <marker date="1549981394597" expanded="false" signature="4076:4082" ph=" }" />
+                <marker date="1549981394597" expanded="true" signature="4176:4528" ph="{...}" />
+                <marker date="1549981394597" expanded="true" signature="4306:4404" ph="{...}" />
+                <marker date="1549981394597" expanded="true" signature="4420:4491" ph="{...}" />
+                <marker date="1549981394597" expanded="true" signature="4584:4701" ph="{...}" />
+                <marker date="1549981394597" expanded="true" signature="4777:4959" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleGlobalException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/SimpleGlobalException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandleGlobalException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/HandleGlobalException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionHandler.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/bind/annotation/ExceptionHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <marker date="1549981394597" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1549981394597" expanded="false" signature="163:356" ph="..." />
+                <marker date="1549981394597" expanded="true" signature="358:435" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerAdvice.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/bind/annotation/ControllerAdvice.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <marker date="1549981394597" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1549981394597" expanded="false" signature="163:498" ph="..." />
+                <marker date="1549981394597" expanded="true" signature="500:586" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/ExceptionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,19 +378,34 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BasicExceptionController</find>
+      <find>error.path</find>
+      <find>w3-agile</find>
+      <find>assets</find>
+      <find>userService</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>../../static/assets</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../begcl-service-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../begcl-service-master/begcl-service" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../begcl-view-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../begcl-view-master/begcl-view" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../mybatis-plus-3.0/mybatis-plus-3.0/mybatis-plus-generator" value="PREVIEW" />
         <entry key="G:/begcl-service" value="PREVIEW" />
+        <entry key="G:/begcl-service-master" value="PREVIEW" />
+        <entry key="G:/begcl-service-master/begcl-service" value="PREVIEW" />
         <entry key="G:/begcl-view" value="PREVIEW" />
+        <entry key="G:/begcl-view-master" value="PREVIEW" />
+        <entry key="G:/begcl-view-master/begcl-view" value="PREVIEW" />
+        <entry key="G:/mybatis-plus-3.0/mybatis-plus-3.0/mybatis-plus-generator" value="PREVIEW" />
         <entry key="G:/mybatis-plus-generator" value="PREVIEW" />
         <entry key="G:/ntjz-service" value="PREVIEW" />
         <entry key="G:/ntjz-systems" value="PREVIEW" />
@@ -159,21 +416,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/app.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/servlet/FirstServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/servlet/SecondServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/filter/FirstFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/filter/SecondFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/listen/FirstListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/listen/SecondListener.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/static/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resource/static/说明.txt" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/resource/static/file/upload.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/FileUpload/uploadContrller.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/TomcatConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/users.ftl" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/userList.ftl" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/模板说明.txt" />
@@ -182,20 +427,46 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/ResultCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/test/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/dao/system/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/system/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/system/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/system/UserService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/SystemConst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/RedisUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/thyemleaf/add.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/thyemleaf/error.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/TomcatConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/DefinErrorConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/ExceptionController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/TestDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/HttpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/404.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/admin/tables-data.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/admin/ui-modals.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/system/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/system/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/test/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/admin/page-login.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/StreamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/WholeExceptionHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/GlobalException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/GlobalException2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/HandleGlobalException2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/HandleGlobalException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/SimpleGlobalException.java" />
       </list>
     </option>
   </component>
@@ -251,10 +522,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -272,54 +542,42 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -327,8 +585,8 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -336,8 +594,8 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -346,8 +604,18 @@
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wzy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -355,8 +623,8 @@
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -364,8 +632,8 @@
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -373,8 +641,8 @@
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -383,29 +651,157 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBoot01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot01" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47157434" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -419,25 +815,30 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="D:/apache-tomcat-8.1/lib/jsp-api.jar!/" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="initExceptionHandlerAdviceCache&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#initExceptionHandlerAdviceCache&#10;addResourceHandlers&#9;ACTION&#9;null&#10;addErrorPages&#9;PSI&#9;JAVA://org.springframework.boot.web.server.ErrorPageRegistry#addErrorPages&#10;EmbeddedServletContainer&#9;PSI&#9;JAVA://com.wzy.config.TomcatConfig#embeddedServletContainerFactory&#10;containerCustomizer&#9;PSI&#9;JAVA://com.wzy.SystemApplication#containerCustomizer&#10;ErrorMvcAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration&#10;BasicErrorController&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\googledownload\SpringBoot01\src\main\java\com\wzy\common" />
-      <recent name="F:\googledownload\SpringBoot01\src\main\resource" />
-      <recent name="F:\googledownload\SpringBoot01\src\main\resource\mapper\system" />
-      <recent name="F:\googledownload\SpringBoot01\src\main\resource\templates\thyemleaf" />
-      <recent name="F:\googledownload\SpringBoot01\src\main\resource\templates" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\SpringBoot02\src\main\resource\static\images" />
+      <recent name="G:\SpringBoot02\src\test\java\com" />
+      <recent name="G:\SpringBoot02\src\main\resource\templates\thyemleaf" />
+      <recent name="F:\googledownload\SpringBoot01\src\main\resource\templates\ftl" />
+      <recent name="F:\googledownload\SpringBoot01\src\main\resource\static\image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wzy.config" />
+      <recent name="com.wzy" />
       <recent name="com.wzy.common" />
       <recent name="com.wzy.controller.system" />
       <recent name="com.wzy.listen" />
-      <recent name="com.wzy.filter" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\googledownload\SpringBoot01\src\main\resource\templates\ftl" />
-      <recent name="F:\googledownload\SpringBoot01\src\main\resource\static\image" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SpringBoot02\src\main\java\com\wzy\config" />
+      <recent name="G:\SpringBoot02\src\main\resource\static\assets\js" />
+      <recent name="G:\SpringBoot02\src\main\resource\templates\admin" />
+      <recent name="G:\SpringBoot02\src\test" />
+      <recent name="G:\SpringBoot02\src\main\resource\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,6 +859,44 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.StreamTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringBoot01" />
+      <envs />
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.TestDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringBoot01" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -580,15 +1019,19 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Maven.maven" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.SystemApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.SystemApplication1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StreamTest" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.SystemApplication1" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SystemApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StreamTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SystemApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -613,11 +1056,15 @@
       <workItem from="1550574275563" duration="3002000" />
       <workItem from="1550577465980" duration="14950000" />
       <workItem from="1550736093086" duration="13174000" />
+      <workItem from="1550829804205" duration="1566000" />
+      <workItem from="1551148656522" duration="6811000" />
+      <workItem from="1551264994485" duration="12071000" />
+      <workItem from="1551332594922" duration="16839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48727000" />
+    <option name="totallyTimeSpent" value="86014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -634,22 +1081,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10742857" sideWeight="0.49570817" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5594966" sideWeight="0.49570817" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2173913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17142858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7906178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17048055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4102857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26824033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35890558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -667,336 +1114,181 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>this.getApplicationContext()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>include == IncludeStacktrace.ON_TRACE_PARAM</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>errorProperties</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>provider != null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/HelloWorld.java">
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="101">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/error/AbstractErrorController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1549981384843" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549981384843" expanded="false" signature="180:836" ph="..." />
+            <marker date="1549981384843" expanded="false" signature="1094:1105" ph=" { " />
+            <marker date="1549981384843" expanded="false" signature="1139:1145" ph=" }" />
+            <marker date="1549981384843" expanded="true" signature="1259:1474" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="1570:1808" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="1918:2076" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="2146:2354" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="2419:2818" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="2968:3383" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java">
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/error/DefaultErrorViewResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="1014">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
+            <marker date="1549981384843" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549981384843" expanded="false" signature="180:1005" ph="..." />
+            <marker date="1549981384843" expanded="true" signature="1482:1863" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="2033:2390" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="2507:2815" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="2894:3208" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="3295:3941" ph="{...}" />
+            <marker date="1549981384843" expanded="false" signature="3968:3979" ph=" { " />
+            <marker date="1549981384843" expanded="false" signature="3997:4003" ph=" }" />
+            <marker date="1549981384843" expanded="false" signature="4040:4051" ph=" { " />
+            <marker date="1549981384843" expanded="false" signature="4070:4076" ph=" }" />
+            <marker date="1549981384843" expanded="true" signature="4089:4312" ph="{...}" />
+            <marker date="1549981384843" expanded="true" signature="4372:4882" ph="{...}" />
+            <marker date="1549981384843" expanded="false" signature="4453:4468" ph=" { " />
+            <marker date="1549981384843" expanded="false" signature="4493:4503" ph=" }" />
+            <marker date="1549981384843" expanded="false" signature="4543:4558" ph=" { " />
+            <marker date="1549981384843" expanded="false" signature="4577:4587" ph=" }" />
+            <marker date="1549981384843" expanded="true" signature="4713:4876" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/app.java" />
-    <entry file="jar://F:/springReporsitory/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/javax/servlet/http/HttpServlet.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/filter/FirstFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/HttpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/filter/SecondFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="182">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/javax/servlet/ServletContextListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/listen/FirstListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE.jar!/org/springframework/boot/web/servlet/MultipartConfigFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/listen/SecondListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/file/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_3.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="184" column="34" lean-forward="false" selection-start-line="184" selection-start-column="31" selection-end-line="184" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/FileUpload/uploadContrller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index1.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="63" column="13" lean-forward="false" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/servlet/FirstServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/servlet/SecondServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="271">
+          <caret line="100" column="1" lean-forward="false" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/TomcatConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/模板说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/ftl/userList.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/thyemleaf/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="28" column="64" lean-forward="false" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/注意事项">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/system/impl/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/test/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/静态说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/dao/system/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/system/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/system/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/system/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="44">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/SystemConst.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/admin/widgets.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1004,35 +1296,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/RedisUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/DefinErrorConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="479">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/admin/tables-data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <state relative-caret-position="364">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/admin/forms-basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="41" column="158" lean-forward="false" selection-start-line="41" selection-start-column="153" selection-end-line="41" selection-end-column="158" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE.jar!/org/springframework/boot/web/servlet/error/DefaultErrorAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <marker date="1549934564724" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549934564724" expanded="false" signature="166:969" ph="..." />
+            <marker date="1549934564724" expanded="false" signature="1272:1283" ph=" { " />
+            <marker date="1549934564724" expanded="false" signature="1295:1301" ph=" }" />
+            <marker date="1549934564724" expanded="false" signature="1362:1373" ph=" { " />
+            <marker date="1549934564724" expanded="false" signature="1414:1420" ph=" }" />
+            <marker date="1549934564724" expanded="false" signature="1447:1458" ph=" { " />
+            <marker date="1549934564724" expanded="false" signature="1477:1483" ph=" }" />
+            <marker date="1549934564724" expanded="true" signature="1614:1690" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="1772:1830" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="1932:2274" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="2377:2933" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="3055:4083" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="4172:4723" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="4789:5048" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="5135:5345" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="5446:5642" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="5697:5962" ph="{...}" />
+            <marker date="1549934564724" expanded="true" signature="6045:6108" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/admin/ui-modals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="48" column="76" lean-forward="false" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="141" column="93" lean-forward="false" selection-start-line="141" selection-start-column="80" selection-end-line="141" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/admin/pages-forget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/assets/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/assets/js/common/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1551334256833" expanded="true" signature="2641:2647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="20" />
+          <folding>
+            <marker date="1550666677601" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1550666677601" expanded="false" signature="166:487" ph="..." />
+            <marker date="1550666677601" expanded="false" signature="602:613" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="653:659" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="778:789" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="837:843" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="1248:1259" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="1305:1311" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="1615:1626" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="1666:1672" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="1820:1831" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="1887:1893" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="1951:1962" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="2005:2011" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="2075:2086" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="2128:2134" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="2228:2239" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="2287:2293" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="2401:2412" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="2458:2464" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="2546:2557" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="2603:2609" ph=" }" />
+            <marker date="1550666677601" expanded="false" signature="2747:2758" ph=" { " />
+            <marker date="1550666677601" expanded="false" signature="2810:2816" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="126" column="17" lean-forward="false" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/system/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/system/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
@@ -1040,32 +1453,337 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2255#2256#0" expanded="false" />
+            <element signature="e#2282#2283#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <marker date="1550827249570" expanded="true" signature="598:618" ph="SELECT * fro... t_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="208">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/admin/page-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="114" column="56" lean-forward="false" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/thyemleaf/ok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/thyemleaf/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/test/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1289">
+          <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/bind/annotation/ControllerAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <marker date="1549981394597" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549981394597" expanded="false" signature="163:498" ph="..." />
+            <marker date="1549981394597" expanded="true" signature="500:586" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/ExceptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/bind/annotation/ExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <marker date="1549981394597" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549981394597" expanded="false" signature="163:356" ph="..." />
+            <marker date="1549981394597" expanded="true" signature="358:435" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="303" column="0" lean-forward="false" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1193">
+          <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+          <folding>
+            <marker date="1549981392585" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549981392585" expanded="false" signature="173:4888" ph="..." />
+            <marker date="1549981392585" expanded="true" signature="6066:6073" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="6162:6223" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="6298:6309" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="6340:6346" ph=" }" />
+            <marker date="1549981392585" expanded="false" signature="6422:6433" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="6470:6476" ph=" }" />
+            <marker date="1549981392585" expanded="false" signature="6543:6554" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="6581:6587" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="6670:8263" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="8345:8403" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="8452:8949" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="9016:9023" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="9084:9320" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="9392:9399" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="9451:9628" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="9684:9846" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="9926:10366" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="10428:11153" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="11243:11250" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="11256:11275" ph="@{...}" />
+            <marker date="1549981392585" expanded="true" signature="11333:11967" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="12040:12047" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="12121:12384" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="12390:12409" ph="@{...}" />
+            <marker date="1549981392585" expanded="true" signature="12461:13339" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="13414:13421" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="13489:13958" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="13964:13983" ph="@{...}" />
+            <marker date="1549981392585" expanded="true" signature="14041:14342" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="14439:14446" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="14529:15834" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="15916:15974" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="16063:16531" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="16607:16618" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="16630:16636" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="16714:16721" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="16795:16981" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="17044:17051" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="17099:18005" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="18059:18070" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="18082:18088" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="18169:18389" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="18486:18493" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="18578:18808" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="18911:18918" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="18993:19430" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="19520:19527" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="19614:19621" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="19729:22269" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="22356:22506" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="22582:22593" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="22632:22638" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="22725:22785" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="22860:23421" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="23528:23535" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="23639:23646" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="23760:24976" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="25068:25131" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="25185:26197" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="26272:26279" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="26356:26633" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="26693:26700" ph="{}" />
+            <marker date="1549981392585" expanded="true" signature="26706:26721" ph="@{...}" />
+            <marker date="1549981392585" expanded="false" signature="26791:26802" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="26842:26848" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="26861:27835" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="27903:28123" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="27937:27948" ph="{}" />
+            <marker date="1549981392585" expanded="false" signature="27997:28012" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="28025:28035" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="28106:28117" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <marker date="1549981392585" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549981392585" expanded="false" signature="177:2628" ph="..." />
+            <marker date="1549981392585" expanded="true" signature="3713:4298" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="4408:4473" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="4564:4575" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="4611:4617" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="4721:4991" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="5079:5090" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="5120:5126" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="5242:5311" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="5407:5461" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="5571:5852" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="5944:5955" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="5987:5993" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="6081:6140" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="6205:6216" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="6246:6252" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="6352:6427" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="6496:6507" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="6545:6551" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="6649:6814" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="6903:6964" ph="{...}" />
+            <marker date="1549981392585" expanded="false" signature="7033:7044" ph=" { " />
+            <marker date="1549981392585" expanded="false" signature="7075:7081" ph=" }" />
+            <marker date="1549981392585" expanded="true" signature="7120:7653" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="7706:9316" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="9420:9505" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="9587:10221" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="10307:11247" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="11440:13861" ph="{...}" />
+            <marker date="1549981392585" expanded="true" signature="14007:15555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/ControllerAdviceBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="34" />
+          <folding>
+            <marker date="1549981394597" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1549981394597" expanded="false" signature="154:824" ph="..." />
+            <marker date="1549981394597" expanded="false" signature="1101:1112" ph=" { " />
+            <marker date="1549981394597" expanded="false" signature="1150:1156" ph=" }" />
+            <marker date="1549981394597" expanded="true" signature="1242:1294" ph="{...}" />
+            <marker date="1549981394597" expanded="true" signature="1377:2768" ph="{...}" />
+            <marker date="1549981394597" expanded="false" signature="2795:2806" ph=" { " />
+            <marker date="1549981394597" expanded="false" signature="2824:2830" ph=" }" />
+            <marker date="1549981394597" expanded="true" signature="2880:3097" ph="{...}" />
+            <marker date="1549981394597" expanded="true" signature="3131:3248" ph="{...}" />
+            <marker date="1549981394597" expanded="true" signature="3294:3404" ph="{...}" />
+            <marker date="1549981394597" expanded="false" signature="3476:3487" ph=" { " />
+            <marker date="1549981394597" expanded="false" signature="3532:3538" ph=" }" />
+            <marker date="1549981394597" expanded="true" signature="3580:3935" ph="{...}" />
+            <marker date="1549981394597" expanded="false" signature="3962:3973" ph=" { " />
+            <marker date="1549981394597" expanded="false" signature="4001:4007" ph=" }" />
+            <marker date="1549981394597" expanded="false" signature="4037:4048" ph=" { " />
+            <marker date="1549981394597" expanded="false" signature="4076:4082" ph=" }" />
+            <marker date="1549981394597" expanded="true" signature="4176:4528" ph="{...}" />
+            <marker date="1549981394597" expanded="true" signature="4306:4404" ph="{...}" />
+            <marker date="1549981394597" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1549981394597" expanded="true" signature="4584:4701" ph="{...}" />
+            <marker date="1549981394597" expanded="true" signature="4777:4959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/HandleGlobalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/SimpleGlobalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/WholeExceptionHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,7 +1833,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47157434" />
               </list>
             </option>
           </splitter-proportions>
@@ -1128,7 +1846,6 @@
             <option name="proportions">
               <list>
                 <option value="0.47157434" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

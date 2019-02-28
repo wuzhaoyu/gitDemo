@@ -3,15 +3,48 @@
 <mapper namespace="com.wzy.mapper.UserMapper">
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.wzy.entity.User">
-        <id column="id" property="id" />
-        <result column="name" property="name" />
-        <result column="role_id" property="roleId" />
+        <id column="id" property="id"/>
+        <result column="user_name" property="userName"/>
+        <result column="name" property="name"/>
+        <result column="password" property="password"/>
+        <result column="phone" property="phone"/>
+        <result column="locked" property="locked"/>
+        <result column="obsolete" property="obsolete"/>
+        <result column="created_at" property="createdAt"/>
+        <result column="created_by" property="createdBy"/>
+        <result column="updated_at" property="updatedAt"/>
+        <result column="updated_by" property="updatedBy"/>
+        <result column="deleted" property="deleted"/>
+        <result column="deleted_at" property="deletedAt"/>
+        <result column="manager" property="manager"/>
+        <result column="salt" property="salt"/>
     </resultMap>
+
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        tid, name, role_id
+        user_name, user_pass, enterprise_id, name, phone, locked, obsolete, created_at, created_by, updated_at, updated_by, deleted, deleted_at, manager, salt,job_number,email,phone_valid,email_valid
     </sql>
-    <select id="selectCondition" resultMap="BaseResultMap">
-        SELECT * from t_user
-    </select>
+    <sql id="commonCondition">
+        <if test="userName != null and userName != ''">
+            and user_name like concat('%',#{userName},'%')
+        </if>
+        <if test="name != null and name != ''">
+            and name like concat('%',#{name},'%')
+        </if>
+        <if test="id !=null and id != ''">
+            and id = #{id}
+        </if>
+        <if test="jobNumber !=null and jobNumber != ''">
+            and job_number = #{jobNumber}
+        </if>
+        <if test="email !=null and email != ''">
+            and email = #{email}
+        </if>
+        <if test="phone !=null and phone != ''">
+            and phone = #{phone}
+        </if>
+        <if test="enterpriseId !=null and enterpriseId != ''">
+            and enterprise_id = #{enterpriseId}
+        </if>
+    </sql>
 </mapper>
