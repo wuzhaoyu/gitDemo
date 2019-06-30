@@ -5,8 +5,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,15 +31,42 @@ public class uploadContrller {
      * @return
      */
     @RequestMapping(value = "/fileUploadController",method = RequestMethod.POST)
-    public Map<String,Object> fileUpload(MultipartFile fileName){
-          System.out.println(fileName.getOriginalFilename());
+    public Map<String,Object> fileUpload(MultipartFile fileName, HttpSession session){
+        Map<String,Object> map = new HashMap<>();
+        map.put("flag",true);
+        String realPath = session.getServletContext().getRealPath("/uploads");
+        File temp = new File(realPath);
+        if(!temp.exists()){
+            //如果不存在，就新建一个路径
+            temp.mkdir();
+        }
+        String filename = fileName.getOriginalFilename();
+        //限制上传的文件必须是图片，通过后缀名的方式
+        String suffix = filename.substring(filename.lastIndexOf(".") + 1);
+        if(!suffix.matches("^(?i)[(PNG)|(GIF)|(JPG)|(JPEG)]+$")){
+            map.put("flag",false);
+            map.put("message","请上传图片！");
+            return map;
+        }
+        //如果图片超过512M，返回false
+        if(fileName.getSize()>512*1024*1024){
+            map.put("flag",false);
+            map.put("message","文件不支持>512KB!");
+            return map;
+        }
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+        String format = sdf.format(new Date());
+        filename = filename.substring(0,filename.lastIndexOf("."))+"_"+format+filename.substring(filename.lastIndexOf("."));
+        File f = new File(realPath+File.separator+filename);
         try {
-            fileName.transferTo(new File("G:/"+fileName.getOriginalFilename()));
+            fileName.transferTo(f);
         } catch (IOException e) {
             e.printStackTrace();
+            map.put("flag",false);
+            map.put("message","上传失败，详细信息为："+e.getMessage());
+            return map;
         }
-        Map map = new HashMap();
-        map.put("mes","success");
+        map.put("filename",filename);
         return map;
     }
 }

@@ -1,10 +1,12 @@
 package com.wzy.controller.system;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
+import com.baomidou.mybatisplus.plugins.Page;
 import com.wzy.common.RedisUtils;
 import com.wzy.common.Result;
 import com.wzy.common.ResultCode;
-import com.wzy.entity.User;
+import com.wzy.common.ResultMsg;
+import com.wzy.entity.system.User;
 import com.wzy.service.system.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +19,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 类功能说明:
@@ -38,11 +42,23 @@ public class UserController {
     @Autowired
     private RedisUtils redisUtils;
 
-    @RequestMapping("/queryAlluser")
-    public Result userList(){
-        List<User> users = userService.selectCondition();
-        redisUtils.set("test",users);
-        return Result.success(users);
+    @PostMapping("/queryAlluser")
+    @ResponseBody
+    public ResultMsg userList(@RequestBody JSONObject param){
+        try {
+            int current = param.getInteger ("current");
+            int size = param.getInteger ("size");
+            Map<String,Object> map = new HashMap<>();
+//        SubsidiaryCertificate subsidiaryCertificate = param.getObject ( "data",SubsidiaryCertificate.class );
+            Page<Map<String,Object>> page = new Page<Map<String,Object>> (current,size);
+            Page<Map<String,Object>> list = userService.selectCondition (page,map);
+            return ResultMsg.success(list);
+//        redisUtils.set("test",users);
+
+        } catch (Exception e) {
+            return ResultMsg.create(400,e.toString());
+        }
+
     }
 
 
@@ -75,8 +91,8 @@ public class UserController {
      */
     @RequestMapping("/addPage")
     public String addPage( User user){
-        List<User> users = userService.selectCondition();
-        redisUtils.set("test",users);
+//        List<User> users = userService.selectCondition();
+//        redisUtils.set("test",users);
         return "thyemleaf/add";
     }
 
@@ -137,5 +153,16 @@ public class UserController {
             }
         }
     }
-
+    /**
+     *登录
+     * @param
+     * @return
+     */
+    @RequestMapping("/selectAll")
+    @ResponseBody
+    public Result selectAll(){
+        List<User> us =  userService.selectList(new EntityWrapper<User>());
+        System.out.println(us);
+        return Result.success(us);
+    }
 }

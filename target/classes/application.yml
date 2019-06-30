@@ -1,5 +1,10 @@
+# 忽略的接口key
+permission:
+  ignore: user.register,login,index,register,user.hasusername, user.register,
+    enterprise.getnumber, enterprise.getbyprovince, home, enterprise.querybycondition,user.getcode,
+    public.ignore
 server:
-  port: 8085
+  port: 8086
   servlet:
     context-path: /
 spring:

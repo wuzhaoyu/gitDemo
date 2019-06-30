@@ -11,6 +11,7 @@ import org.springframework.boot.web.servlet.*;
 import org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.stereotype.Controller;
 
 import javax.servlet.MultipartConfigElement;

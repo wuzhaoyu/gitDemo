@@ -8,7 +8,9 @@ public class SystemConst {
     public static final String HTTP_HEADER_JWT_KEY = "x-access-token";
     public static final String CACHED_USER_INFO = "cached_user_info";
     public static final long DEFAULT_JWT_EXPIRE_TIME = 7200L;
-    public static final long SMS_JWT_EXPIRE_TIME = 60L;
+    public static final long SMS_JWT_EXPIRE_TIME = 300L;
+    public static final long SMS_EMAIL_JWT_EXPIRE_TIME = 1800L;
+    public static final long PHONE_CODE_EXPIRE_TIME = 60L;
 
     public static final String SMS = "sms";
     public static final String WEIXIN = "weixin";
@@ -71,4 +73,6 @@ public class SystemConst {
      *
      */
     public static final String POSTTYPE = "post_type";
+
+    public static String ACCESS_TOKEN = "x-access-token";
 }

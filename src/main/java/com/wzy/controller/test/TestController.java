@@ -1,7 +1,6 @@
 package com.wzy.controller.test;
 
-import com.wzy.entity.User;
-import org.springframework.stereotype.Controller;
+import com.wzy.entity.system.User;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;

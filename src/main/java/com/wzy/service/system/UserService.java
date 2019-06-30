@@ -1,9 +1,11 @@
 package com.wzy.service.system;
 
+import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.IService;
-import com.wzy.entity.User;
+import com.wzy.entity.system.User;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 类功能说明:
@@ -16,5 +18,5 @@ import java.util.List;
  **/
 public interface UserService extends IService<User> {
 
-    List<User> selectCondition();
+    Page<Map<String,Object>> selectCondition(Page<Map<String,Object>> page, Map<String,Object> map);
 }

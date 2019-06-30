@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wzy.mapper.UserMapper">
+<mapper namespace="com.wzy.mapper.system.UserMapper">
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.wzy.entity.User">
+    <resultMap id="BaseResultMap" type="com.wzy.entity.system.User">
         <id column="id" property="id"/>
         <result column="user_name" property="userName"/>
         <result column="name" property="name"/>
@@ -47,4 +47,7 @@
             and enterprise_id = #{enterpriseId}
         </if>
     </sql>
+    <select id="selectCondition" resultType="com.wzy.entity.system.User">
+        SELECT * FROM sys_user
+    </select>
 </mapper>
