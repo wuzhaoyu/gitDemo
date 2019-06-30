@@ -40,6 +40,7 @@ public class AdminController {
         return  "admin/ui-buttons";
     }
 
+
     /**
      * 基础数据表
      * @return
