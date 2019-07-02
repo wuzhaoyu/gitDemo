@@ -276,6 +276,16 @@
     
     <script src="../../static/portal/js/plugins.js"></script>
     <script src="../../static/portal/js/main.js"></script>
-
+    <script>
+        $(document).ready(function () {
+            var param = {
+                current:1,
+                size:6
+            }
+            syncPost("../api/user/queryAlluser",JSON.stringify(param),function(data){
+                console.log(data)
+            })
+        });
+    </script>
 </body>
 </html>
