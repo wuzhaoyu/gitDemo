@@ -44,8 +44,8 @@
         <div class="container">
             <div class="col-md-9">
                 <div class="blog-posts">
-                    <div class="row">
-                        <div class="col-md-12">
+                    <div id="contents" class="row">
+                        <!--<div class="col-md-12">
                             <div class="blog-post">
                                 <img src="img/blog_post_1.png" alt="">
                                 <div class="text-content">
@@ -86,15 +86,18 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-12">
-                            <ul class="page-number">
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">></a></li>
-                            </ul>
-                        </div>
+                        </div>-->
+
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <!--<ul class="page-number">
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">></a></li>
+                    </ul>-->
+                    <div id="pageBox" style="width:1000px;margin: 30px auto;">
                     </div>
                 </div>
             </div>
@@ -269,23 +272,148 @@
       </div>
     </section>
 
-    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+    <script src="../../static/portal/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="../../static/js/common/common.js"></script>
     <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
     
     <script src="../../static/portal/js/plugins.js"></script>
     <script src="../../static/portal/js/main.js"></script>
+    <script src="../../static/portal/js/business/content_detail.js"></script>
     <script>
         $(document).ready(function () {
-            var param = {
+         /*   var param = {
                 current:1,
-                size:6
+                size:3
             }
             syncPost("../api/user/queryAlluser",JSON.stringify(param),function(data){
                 console.log(data)
-            })
+            })*/
+                renderPageItem();
         });
+
+        /**
+         * 加载资源
+         * @param current
+         */
+        function initLoadContent(current){
+          var param = {
+                       current:current,
+                       size:3
+           }
+           syncPost("../api/sysResources/queryCondition",param,function(data){
+               console.log(data)
+               var $content = $("#contents");
+               $content.empty();
+               data.data.records.forEach(function (info) {
+                   $content.append('<div class="col-md-12"> <div class="blog-post"> <img src="img/blog_post_1.png" alt=""><div class="text-content"> <span>'
+                       + '<a href="#">'+ info.name+'</a> /'
+                       + '<a href="#">'+ info.createdAt+'</a> / '
+                       + '<a href="#">'+info.type+'</a></span>'
+                       + '<h2>'+info.title+'</h2>'
+                       + '<p>'+info.description+'</p>'
+                       + '<div class="simple-btn"><a href="./singlePost?tid='+info.tid +'">继续阅读</a></div>'
+                       + ' </div> </div> </div>');
+               });
+           })
+        }
+
+
+        var total = 500,//数据总条数
+            pageNumber = 1,//当前页
+            pageSize = 10, //每页显示的条数
+            edges = 2,//两侧显示的页码数 大于1
+            playes = 5,//主页码区显示的页码数 大于3
+            pages = Math.ceil(total / pageSize);//总页数
+
+        function renderPageItem() {
+            $ul = $('<ul class="page-number"></ul>');
+            var start = 1;
+            var end = pages;
+            if (playes % 2) {
+                //playes是奇数
+                start = pageNumber - Math.floor(playes / 2);
+                end = pageNumber + Math.floor(playes / 2);
+            } else {
+                //playes是偶数
+                start = pageNumber - (playes / 2 - 1);
+                end = pageNumber + playes / 2;
+            }
+
+            if (start <= edges + 1) {
+                start = 1;
+                if (end < playes && playes<pages) {
+                    end = playes;
+                }
+            } else {
+                for (var i = 1; i <= edges; i++) {
+                    $ul.append(renderItem(i));
+                }
+                $ul.append('<li><span>...</span></li>')
+            }
+            if (end < pages - edges) {
+                for (var i = start; i <= end; i++) {
+                    $ul.append(renderItem(i));
+                }
+                $ul.append('<li><span>...</span></li>');
+                for (var i = pages - edges + 1; i <= pages; i++) {
+                    $ul.append(renderItem(i));
+                }
+            } else {
+                end = pages;
+                if(start>pages-playes+1){
+                    start = pages-playes+1
+                }
+                for (var i = start; i <= end; i++) {
+                    $ul.append(renderItem(i));
+                }
+            }
+            $ul.prepend(renderPrevItem());
+            $ul.append(renderNextItem());
+            $('#pageBox').empty().append($ul);
+            //load
+            initLoadContent(pageNumber);
+        }
+
+        function renderItem(i) {
+            $item = $('<li><a href="#">' + i + '</a></li>');
+            if (i == pageNumber) {
+                $item.addClass('active');
+            }
+            $item.on('click', (function (num) {
+                return function () {
+                    pageNumber = num;
+                    renderPageItem();
+                }
+            })(i));
+            return $item
+        }
+
+        function renderPrevItem() {
+            $prev = $('<li><a href="#">&laquo;</a></li>');
+            if (pageNumber == 1) {
+                $prev.addClass('disabled');
+            } else {
+                $prev.on('click', function () {
+                    pageNumber = pageNumber - 1;
+                    renderPageItem();
+                })
+            }
+            return $prev;
+        }
+
+        function renderNextItem() {
+            $next = $('<li><a href="#">&raquo;</a></li>');
+            if (pageNumber == pages) {
+                $next.addClass('disabled');
+            } else {
+                $next.on('click', function () {
+                    pageNumber = pageNumber + 1;
+                    renderPageItem();
+                })
+            }
+            return $next;
+        }
+
     </script>
 </body>
 </html>
