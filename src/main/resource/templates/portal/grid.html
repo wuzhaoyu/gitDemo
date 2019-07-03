@@ -442,13 +442,13 @@
                       <a href="./grid">首页</a>
                   </li>
                   <li>
-                      <a href="about.html">关于我们</a>
+                      <a href="./about">关于我们</a>
                   </li>
                   <li>
                       <a href="./blog">博客条目</a>
                   </li>
                   <li>
-                      <a href="single-post.html">单一帖子</a>
+                      <a href="./singlePost">单一帖子</a>
                   </li>
               </ul>
               <p>努力只为你</p>
@@ -457,9 +457,7 @@
       </div>
     </section>
 
-    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+    <script src="../../static/portal/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
     
     <script src="../../static/portal/js/plugins.js"></script>
@@ -473,13 +471,13 @@
     <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
     <script>
         $(document).ready(function () {
-            var param = {
+           /* var param = {
                 current:1,
                 size:6
             }
             syncPost("../api/user/queryAlluser",JSON.stringify(param),function(data){
               console.log(data)
-            })
+            })*/
         });
         function go_source(a) {
             window.location.href = a
