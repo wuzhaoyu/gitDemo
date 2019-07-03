@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wzy.mapper.system.SysResourcesMapper">
+<mapper namespace="com.wzy.mapper.system.SysContentMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.wzy.entity.system.SysResources">
+    <resultMap id="BaseResultMap" type="com.wzy.entity.system.SysContent">
         <id column="tid" property="tid" />
         <result column="name" property="name" />
         <result column="title" property="title" />
@@ -27,8 +27,8 @@
             ss.type = #{type}
         </if>
     </sql>
-    <select id="queryCondition" resultType="com.wzy.entity.system.SysResources">
-        SELECT ss.*,sf.name as fileName from sys_resources ss
+    <select id="queryCondition" resultType="com.wzy.entity.system.SysContent">
+        SELECT ss.*,sf.name as fileName from sys_content ss
         left join sys_file sf on ss.file_id = sf.tid
         where ss.updated_at is null
         <include refid="condition"/>

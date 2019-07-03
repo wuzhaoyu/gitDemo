@@ -2,7 +2,7 @@ package com.wzy.service.system;
 
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.IService;
-import com.wzy.entity.system.SysResources;
+import com.wzy.entity.system.SysContent;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ import java.util.List;
  * @author wuzhaoyu
  * @since 2019-03-06
  */
-public interface SysResourcesService extends IService<SysResources> {
+public interface SysContentService extends IService<SysContent> {
 
     /**
      * 分页查询
@@ -22,7 +22,7 @@ public interface SysResourcesService extends IService<SysResources> {
      * @param sysResources
      * @return
      */
-    Page<SysResources> queryCondition(Page<SysResources> page,SysResources sysResources);
+    Page<SysContent> queryCondition(Page<SysContent> page, SysContent sysResources);
 
     /**
      * 分页查询
@@ -30,12 +30,12 @@ public interface SysResourcesService extends IService<SysResources> {
      * @param sysResources
      * @return
      */
-    List<SysResources> queryCondition(SysResources sysResources);
+    List<SysContent> queryCondition(SysContent sysResources);
 
     /**
      * 保存
      * @param sysResources
      */
-    void save(SysResources sysResources);
+    void save(SysContent sysResources);
 
 }

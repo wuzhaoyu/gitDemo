@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,15 +9,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-
-        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="../../static/portal/css/bootstrap.css">
+        <link rel="stylesheet" href="../../static/portal/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../../static/portal/css/fontAwesome.css">
+        <link rel="stylesheet" href="../../static/portal/css/light-box.css">
+        <link rel="stylesheet" href="../../static/portal/css/templatemo-style.css">
+        <link rel="stylesheet" href="../../static/editor/css/editormd.css"/>
+        <link rel="stylesheet" href="../../static/editor/examples/css/style.css"/>
+<!--        <link rel="stylesheet" href="../../static/editor/css/editormd.preview.css" />-->
+     <!--   <link type="text/css" rel="stylesheet" href="../../static/editor/lib/codemirror/theme/pastel-on-dark.css">
+        <link type="text/css" rel="stylesheet" href="../../static/editor/lib/codemirror/codemirror.min.css">
+        <link type="text/css" rel="stylesheet" href="../../static/editor/lib/codemirror/addon/dialog/dialog.css">
+        <link type="text/css" rel="stylesheet" href="../../static/editor/lib/codemirror/addon/search/matchesonscrollbar.css">
+        <link type="text/css" rel="stylesheet" href="../../static/editor/lib/codemirror/addon/fold/foldgutter.css">
+        <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">-->
+        <script src="../../static/portal/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
 <body>
@@ -45,17 +51,12 @@
             <div class="col-md-9">
                 <div class="blog-posts">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="single-blog-post">
-                                <img src="img/blog_post_1.png" alt="">
-                                <div class="text-content">
-                                    <h2>Sed sit amet viverra augue</h2>
-                                    <span><a href="#">Admin</a> / <a href="#">16 September 2018</a> / <a href="#">Branding</a></span>
-                                    <p>Nullam et justo pharetra, commodo eros ac, pharetra justo. Donec vel vehicula urna. Proin sodales ligula vitae lacus elementum, at tempor nisl congue. Pellentesque nec lacus velit. Vestibulum tincidunt hendrerit ante id sagittis. Phasellus sodales nibh mattis neque interdum viverra. Nam accumsan arcu id fringilla auctor. 
-                                    <br><br>Suspendisse et rutrum nisl. Phasellus porttitor metus vel justo blandit, in finibus neque elementum. Nullam semper, turpis quis egestas consequat, dui eros tristique lectus, ac euismod ex quam id mauris. Nunc sit amet nibh sollicitudin, interdum nunc in, eleifend est.
-                                    
-                                	<br><br>Pellentesque vel dignissim libero, et sagittis elit. Nulla dignissim eleifend tellus, sed molestie risus rutrum non. Etiam lorem odio, convallis a arcu vel, bibendum molestie metus. Pellentesque imperdiet nisl ante, eu congue nisl suscipit id.
-                                    <br><br><a href="blog.html">Back to Blog</a></p>
+                        <div id="#detailContent" class="col-md-12">
+<!--                                <img th:src="@{../../file/showImage?path={path}(path= ${resource.fileName})}" >-->
+<!--                                <img src="../../static/portal/img/blog_post_1.png" alt="">-->
+                                   <!-- <h2 th:text="${detail.title}"></h2>
+                                    <span><a href="#" th:text="${detail.name}"></a> / <a href="#" th:text="${detail.createdAt}"></a> / <a href="#" th:text="${detail.type}"></a></span>
+                                    <p th:text="${detail.description}"><br><a href="blog.html">Back to Blog</a></p>
                                     <div class="tags-share">
                                         <div class="row">
                                             <div class="col-md-6">
@@ -75,9 +76,12 @@
                                                 </ul>
                                             </div>
                                         </div>
+                                    </div>-->
+                                    <div id="content-editormd" class="editormd-preview-theme-dark">
+                                        <textarea id="contents"  style="display:none;"  name="test-editormd-markdown-doc" th:text="${detail.description}"></textarea>
+<!--                                        <textarea id="contents"  style="display:none;"  name="test-editormd-markdown-doc"></textarea>-->
                                     </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -114,21 +118,21 @@
                                     <h6>Duis mollis orci</h6>
                                     <span>15 September 2018</span>
                                 </div>
-                            </li></a>
+                            </a></li>
                             <li><a href="single-post.html">
                                 <img src="img/recent_post_2.png" alt="Recent Post 2">
                                 <div class="text">
                                     <h6>Etiam quis tem</h6>
                                     <span>10 August 2018</span>
                                 </div>
-                            </li></a>
+                           </a> </li>
                             <li><a href="single-post.html">
                                 <img src="img/recent_post_3.png" alt="Recent Post 3">
                                 <div class="text">
                                     <h6>Proin at augue</h6>
                                     <span>16 July 2018</span>
                                 </div>
-                            </li></a>
+                           </a> </li>
                         </ul>
                     </div>
                     <div class="categories">
@@ -254,13 +258,46 @@
     </section>
 
 
-    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="../../static/editor/examples/js/jquery.min.js"></script>
+    <script src="../../static/js/common/common.js"></script>
+    <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
 
-    <script src="js/vendor/bootstrap.min.js"></script>
-    
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../../static/portal/js/plugins.js"></script>
+    <script src="../../static/portal/js/main.js"></script>
 
+    <script src="../../static/editor/editormd.js"></script>
+    <script src="../../static/editor/lib/marked.min.js"></script>
+    <script src="../../static/editor/lib/prettify.min.js"></script>
+    <script src="../../static/editor/lib/raphael.min.js"></script>
+    <script src="../../static/editor/lib/underscore.min.js"></script>
+    <script src="../../static/editor/lib/sequence-diagram.min.js"></script>
+    <script src="../../static/editor/lib/flowchart.min.js"></script>
+    <script src="../../static/editor/lib/jquery.flowchart.min.js"></script>
+ <!--   <script src="../../static/editor/lib/codemirror/codemirror.min.js"></script>
+    <script src="../../static/editor/lib/codemirror/modes.min.js"></script>
+    <script src="../../static/editor/lib/codemirror/addons.min.js"></script>-->
+<!--    <script id="-cdnjs-cloudflare-com-ajax-libs-KaTeX-0-3-0-katex-min" type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*editormd.markdownToHTML("content-editormd", {
+                htmlDecode: "style,script,iframe", //可以过滤标签解码
+                emoji: true,
+                taskList: true,
+                tex: true,               // 默认不解析
+                flowChart: true,         // 默认不解析
+                sequenceDiagram: true, // 默认不解析
+                codeFold: true,
+            });*/
+            editormd = editormd.markdownToHTML("content-editormd", {
+                // markdown        :  $("#contents").text(),//markdwon内容
+                htmlDecode      : "style,script,iframe",  //  //可以过滤标签解码
+                emoji           : true,
+                taskList        : true,
+                tex             : true,  // 默认不解析
+                flowChart       : true,  // 默认不解析
+                sequenceDiagram : true,  // 默认不解析
+            });
+        });
+    </script>
 </body>
 </html>

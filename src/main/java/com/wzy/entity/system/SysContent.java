@@ -14,17 +14,16 @@ import java.util.Date;
 
 /**
  * <p>
- * 
+ *  资源内容
  * </p>
- *
  * @author wuzhaoyu
  * @since 2019-03-06
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName("sys_resources")
-public class SysResources extends Model<SysResources> {
+@TableName("sys_content")
+public class SysContent extends Model<SysContent> {
 
     private static final long serialVersionUID = 1L;
 

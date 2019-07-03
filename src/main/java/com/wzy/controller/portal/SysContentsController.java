@@ -2,11 +2,10 @@ package com.wzy.controller.portal;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
-import com.wzy.common.ResultCode;
 import com.wzy.common.ResultMsg;
 import com.wzy.controller.system.AbstractController;
-import com.wzy.entity.system.SysResources;
-import com.wzy.service.system.SysResourcesService;
+import com.wzy.entity.system.SysContent;
+import com.wzy.service.system.SysContentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 /**
  * <p>
@@ -27,12 +25,12 @@ import java.util.Objects;
  */
 @RestController
 @RequestMapping("/contentResources")
-public class ResourceController extends AbstractController {
+public class SysContentsController extends AbstractController {
 
 
-    private static final Logger log = LoggerFactory.getLogger(ResourceController.class);
+    private static final Logger log = LoggerFactory.getLogger(SysContentsController.class);
     @Autowired
-    private SysResourcesService sysResourcesService;
+    private SysContentService sysContentService;
 
     @PostMapping("/queryCondition")
     @ResponseBody
@@ -42,9 +40,9 @@ public class ResourceController extends AbstractController {
             int size = param.getInteger("size");
             Map<String, Object> map = new HashMap<>();
 //        SubsidiaryCertificate subsidiaryCertificate = param.getObject ( "data",SubsidiaryCertificate.class );
-            Page<SysResources> page = new Page<SysResources>(1, 6);
-            List<SysResources> sysResources = sysResourcesService.selectList(new EntityWrapper<>());
-            Page<SysResources> list = page.setRecords(sysResources);
+            Page<SysContent> page = new Page<SysContent>(1, 6);
+            List<SysContent> sysResources = sysContentService.selectList(new EntityWrapper<>());
+            Page<SysContent> list = page.setRecords(sysResources);
             return ResultMsg.success(list);
 //        redisUtils.set("test",users);
 
@@ -53,5 +51,16 @@ public class ResourceController extends AbstractController {
         }
     }
 
+    @PostMapping("/queryDetailByTid")
+    @ResponseBody
+    public ResultMsg queryDetailByTid(@RequestBody JSONObject param) {
+        try {
+            int tid = param.getInteger("tid");
+            SysContent sysResources = sysContentService.selectById(tid);
+            return ResultMsg.success(sysResources);
+        } catch (Exception e) {
+            return ResultMsg.create(400, e.toString());
+        }
+    }
 }
 

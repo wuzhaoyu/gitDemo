@@ -2,9 +2,9 @@ package com.wzy.service.system.impl;
 
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.wzy.entity.system.SysResources;
-import com.wzy.mapper.system.SysResourcesMapper;
-import com.wzy.service.system.SysResourcesService;
+import com.wzy.entity.system.SysContent;
+import com.wzy.mapper.system.SysContentMapper;
+import com.wzy.service.system.SysContentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,33 +21,33 @@ import java.util.Objects;
  * @since 2019-03-06
  */
 @Service
-public class SysResourcesServiceImpl extends ServiceImpl<SysResourcesMapper, SysResources> implements SysResourcesService {
+public class SysContentServiceImpl extends ServiceImpl<SysContentMapper, SysContent> implements SysContentService {
 
     @Autowired
-    private SysResourcesMapper sysResourcesMapper;
+    private SysContentMapper sysContentMapper;
     @Override
-    public Page<SysResources> queryCondition(Page<SysResources> page, SysResources sysResources) {
-        page.setRecords(sysResourcesMapper.queryCondition(page,sysResources));
+    public Page<SysContent> queryCondition(Page<SysContent> page, SysContent sysResources) {
+        page.setRecords(sysContentMapper.queryCondition(page,sysResources));
         return page;
     }
 
     @Override
-    public List<SysResources> queryCondition(SysResources sysResources) {
-        return sysResourcesMapper.queryCondition(sysResources);
+    public List<SysContent> queryCondition(SysContent sysResources) {
+        return sysContentMapper.queryCondition(sysResources);
     }
 
     @Override
-    public void save(SysResources sysResources) {
+    public void save(SysContent sysResources) {
         if(Objects.isNull(sysResources)){
             return;
         }
         sysResources.setCreatedBy(1);
         if(Objects.nonNull(sysResources.getTid())){
             sysResources.setUpdatedAt(new Date());
-            sysResourcesMapper.updateById(sysResources);
+            sysContentMapper.updateById(sysResources);
         }else{
             sysResources.setCreatedAt(new Date());
-            sysResourcesMapper.insert(sysResources);
+            sysContentMapper.insert(sysResources);
         }
     }
 }

@@ -4,15 +4,13 @@ import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.wzy.common.ResultCode;
 import com.wzy.common.ResultMsg;
-import com.wzy.entity.system.SysResources;
-import com.wzy.service.system.SysResourcesService;
+import com.wzy.entity.system.SysContent;
+import com.wzy.service.system.SysContentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,28 +25,25 @@ import java.util.Objects;
  * @since 2019-03-06
  */
 @RestController
-@RequestMapping("/sysResources")
-public class SysResourcesController extends AbstractController {
+@RequestMapping("api/sysResources")
+public class SysContentController extends AbstractController {
 
 
-    private static final Logger log = LoggerFactory.getLogger(SysResourcesController.class);
+    private static final Logger log = LoggerFactory.getLogger(SysContentController.class);
     @Autowired
-    private SysResourcesService sysResourcesService;
+    private SysContentService sysContentService;
 
     @PostMapping("/queryCondition")
     @ResponseBody
-    public ResultMsg userList(@RequestBody JSONObject param) {
+    public ResultMsg queryCondition(@RequestBody JSONObject param) {
         try {
             int current = param.getInteger("current");
             int size = param.getInteger("size");
             Map<String, Object> map = new HashMap<>();
-//        SubsidiaryCertificate subsidiaryCertificate = param.getObject ( "data",SubsidiaryCertificate.class );
-            Page<SysResources> page = new Page<SysResources>(1, 6);
-            List<SysResources> sysResources = sysResourcesService.selectList(new EntityWrapper<>());
-            Page<SysResources> list = page.setRecords(sysResources);
+            Page<SysContent> page = new Page<SysContent>(current, size);
+            SysContent condition = new SysContent();
+            Page<SysContent> list  = sysContentService.queryCondition(page,condition);
             return ResultMsg.success(list);
-//        redisUtils.set("test",users);
-
         } catch (Exception e) {
             return ResultMsg.create(400, e.toString());
         }
@@ -59,8 +54,8 @@ public class SysResourcesController extends AbstractController {
             return ResultMsg.create(ResultCode.ERROR_SAVE_FAILED,ResultCode.ERROR_SAVE_FAILED_MSG);
         }
         try {
-            SysResources obj = param.getObject("resource",SysResources.class);
-            sysResourcesService.save(obj);
+            SysContent obj = param.getObject("resource",SysContent.class);
+            sysContentService.save(obj);
         }catch (Exception e){
             return ResultMsg.create(ResultCode.ERROR_SAVE_FAILED,ResultCode.ERROR_SAVE_FAILED_MSG);
         }
