@@ -2,7 +2,7 @@ package com.wzy.service.system;
 
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.IService;
-import com.wzy.entity.system.SysContent;
+import com.wzy.domain.SysContent;
 
 import java.util.List;
 

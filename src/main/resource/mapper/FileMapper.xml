@@ -3,7 +3,7 @@
 <mapper namespace="com.wzy.mapper.system.mapper.FileMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.wzy.entity.system.File">
+    <resultMap id="BaseResultMap" type="com.wzy.domain.File">
         <id column="tid" property="tid" />
         <result column="name" property="name" />
         <result column="type" property="type" />

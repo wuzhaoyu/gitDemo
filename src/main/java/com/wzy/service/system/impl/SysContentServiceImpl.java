@@ -2,7 +2,7 @@ package com.wzy.service.system.impl;
 
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.wzy.entity.system.SysContent;
+import com.wzy.domain.SysContent;
 import com.wzy.mapper.system.SysContentMapper;
 import com.wzy.service.system.SysContentService;
 import org.springframework.beans.factory.annotation.Autowired;

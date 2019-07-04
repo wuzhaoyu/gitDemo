@@ -3,7 +3,7 @@
 <mapper namespace="com.wzy.mapper.system.SysContentMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.wzy.entity.system.SysContent">
+    <resultMap id="BaseResultMap" type="com.wzy.domain.SysContent">
         <id column="tid" property="tid" />
         <result column="name" property="name" />
         <result column="title" property="title" />
@@ -27,7 +27,7 @@
             ss.type = #{type}
         </if>
     </sql>
-    <select id="queryCondition" resultType="com.wzy.entity.system.SysContent">
+    <select id="queryCondition" resultType="com.wzy.domain.SysContent">
         SELECT ss.*,sf.name as fileName from sys_content ss
         left join sys_file sf on ss.file_id = sf.tid
         where ss.updated_at is null

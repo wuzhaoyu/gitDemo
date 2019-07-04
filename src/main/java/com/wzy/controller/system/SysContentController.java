@@ -1,10 +1,9 @@
 package com.wzy.controller.system;
 import com.alibaba.fastjson.JSONObject;
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.wzy.common.ResultCode;
 import com.wzy.common.ResultMsg;
-import com.wzy.entity.system.SysContent;
+import com.wzy.domain.SysContent;
 import com.wzy.service.system.SysContentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 

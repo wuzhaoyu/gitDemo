@@ -1,9 +1,8 @@
 package com.wzy.mapper.system;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.plugins.pagination.Pagination;
-import com.wzy.entity.system.SysContent;
+import com.wzy.domain.SysContent;
 
 import java.util.List;
 

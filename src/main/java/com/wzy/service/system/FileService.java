@@ -1,9 +1,7 @@
 package com.wzy.service.system;
 
 import com.baomidou.mybatisplus.service.IService;
-import com.wzy.entity.system.File;
-
-import java.util.List;
+import com.wzy.domain.File;
 
 /**
  * <p>

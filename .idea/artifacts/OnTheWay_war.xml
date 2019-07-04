@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="SpringBoot01.war">
+    <root id="archive" name="OnTheWay.war">
       <element id="artifact" artifact-name="OnTheWay:war exploded" />
     </root>
   </artifact>

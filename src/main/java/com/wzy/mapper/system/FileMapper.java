@@ -1,7 +1,7 @@
 package com.wzy.mapper.system;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.wzy.entity.system.File;
+import com.wzy.domain.File;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.wzy.common.ResultMsg;
 import com.wzy.controller.system.AbstractController;
-import com.wzy.entity.system.SysContent;
+import com.wzy.domain.SysContent;
 import com.wzy.service.system.SysContentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

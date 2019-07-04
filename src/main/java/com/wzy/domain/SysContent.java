@@ -1,4 +1,4 @@
-package com.wzy.entity.system;
+package com.wzy.domain;
 
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableField;

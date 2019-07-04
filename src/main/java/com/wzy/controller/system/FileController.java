@@ -1,11 +1,9 @@
 package com.wzy.controller.system;
 
 
-import com.alibaba.fastjson.JSONObject;
 import com.wzy.common.ResultCode;
 import com.wzy.common.ResultMsg;
-import com.wzy.common.SystemConst;
-import com.wzy.entity.system.File;
+import com.wzy.domain.File;
 import com.wzy.service.system.FileService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

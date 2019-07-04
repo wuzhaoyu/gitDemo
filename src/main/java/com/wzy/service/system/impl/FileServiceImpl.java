@@ -1,7 +1,7 @@
 package com.wzy.service.system.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.wzy.entity.system.File;
+import com.wzy.domain.File;
 import com.wzy.mapper.system.FileMapper;
 import com.wzy.service.system.FileService;
 import org.springframework.beans.factory.annotation.Autowired;

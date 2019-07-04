@@ -1,4 +1,4 @@
-package com.wzy.entity.system;
+package com.wzy.domain;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.activerecord.Model;

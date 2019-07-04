@@ -1,7 +1,7 @@
 package com.wzy.controller.transmint;
 
 import com.baomidou.mybatisplus.plugins.Page;
-import com.wzy.entity.system.SysContent;
+import com.wzy.domain.SysContent;
 import com.wzy.service.system.SysContentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
