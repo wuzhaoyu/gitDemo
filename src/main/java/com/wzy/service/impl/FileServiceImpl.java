@@ -1,9 +1,9 @@
-package com.wzy.service.system.impl;
+package com.wzy.service.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.wzy.domain.File;
-import com.wzy.mapper.system.FileMapper;
-import com.wzy.service.system.FileService;
+import com.wzy.mapper.FileMapper;
+import com.wzy.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

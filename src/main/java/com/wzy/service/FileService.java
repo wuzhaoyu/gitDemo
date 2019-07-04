@@ -1,4 +1,4 @@
-package com.wzy.service.system;
+package com.wzy.service;
 
 import com.baomidou.mybatisplus.service.IService;
 import com.wzy.domain.File;

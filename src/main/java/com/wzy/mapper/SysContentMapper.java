@@ -1,4 +1,4 @@
-package com.wzy.mapper.system;
+package com.wzy.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.baomidou.mybatisplus.plugins.pagination.Pagination;

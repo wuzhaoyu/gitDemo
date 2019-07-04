@@ -4,7 +4,7 @@ package com.wzy.controller.system;
 import com.wzy.common.ResultCode;
 import com.wzy.common.ResultMsg;
 import com.wzy.domain.File;
-import com.wzy.service.system.FileService;
+import com.wzy.service.FileService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
