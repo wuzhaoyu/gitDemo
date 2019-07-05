@@ -28,5 +28,13 @@
     <sql id="Base_Column_List">
         id, title, user_id, cover_image, qrcode_path, is_markdown, content, content_md, top, type_id, status, recommended, original, description, keywords, comment, create_time, update_time
     </sql>
+    <select id="queryCondition" resultType="com.wzy.domain.BizArticle">
+         SELECT
+            le.*,
+            pe.NAME AS type
+        FROM
+            biz_article le
+            LEFT JOIN biz_type pe ON le.type_id = pe.id
+    </select>
 
 </mapper>

@@ -1,10 +1,12 @@
 package com.wzy.domain;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,7 +27,7 @@ import java.util.Date;
  @AllArgsConstructor
  @NoArgsConstructor
  @Accessors(chain = true)
-@TableName("biz_article")
+ @TableName("biz_article")
 public class BizArticle extends Model<BizArticle> {
 
     private static final long serialVersionUID = 1L;
@@ -98,15 +100,21 @@ public class BizArticle extends Model<BizArticle> {
     /**
      * 添加时间
      */
+//    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone="GMT+8")
     @TableField("create_time")
     private Date createTime;
     /**
      * 更新时间
      */
+//    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone="GMT+8")
     @TableField("update_time")
     private Date updateTime;
 
-
+    /**
+     * type 文章类型
+     */
+    @TableField(exist = false)
+    private String type;
 
 
     @Override
@@ -114,27 +122,4 @@ public class BizArticle extends Model<BizArticle> {
         return this.id;
     }
 
-    @Override
-    public String toString() {
-        return "BizArticle{" +
-        "id=" + id +
-        ", title=" + title +
-        ", userId=" + userId +
-        ", coverImage=" + coverImage +
-        ", qrcodePath=" + qrcodePath +
-        ", isMarkdown=" + isMarkdown +
-        ", content=" + content +
-        ", contentMd=" + contentMd +
-        ", top=" + top +
-        ", typeId=" + typeId +
-        ", status=" + status +
-        ", recommended=" + recommended +
-        ", original=" + original +
-        ", description=" + description +
-        ", keywords=" + keywords +
-        ", comment=" + comment +
-        ", createTime=" + createTime +
-        ", updateTime=" + updateTime +
-        "}";
-    }
 }
