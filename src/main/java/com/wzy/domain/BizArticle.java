@@ -100,13 +100,13 @@ public class BizArticle extends Model<BizArticle> {
     /**
      * 添加时间
      */
-//    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone="GMT+8")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone="GMT+8")
     @TableField("create_time")
     private Date createTime;
     /**
      * 更新时间
      */
-//    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone="GMT+8")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone="GMT+8")
     @TableField("update_time")
     private Date updateTime;
 
@@ -116,6 +116,22 @@ public class BizArticle extends Model<BizArticle> {
     @TableField(exist = false)
     private String type;
 
+    /**
+     * type 文章标签
+     */
+    @TableField(exist = false)
+    private String tagName;
+
+    /**
+     * 开始时间
+     */
+    @TableField(exist = false)
+    private String startDate;
+    /**
+     * 结束时间
+     */
+    @TableField(exist = false)
+    private String endDate;
 
     @Override
     protected Serializable pkVal() {

@@ -3,19 +3,25 @@ package com.wzy.controller.portal;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.plugins.Page;
+import com.wzy.common.DateUtils;
+import com.wzy.common.Result;
 import com.wzy.common.ResultMsg;
 import com.wzy.controller.system.AbstractController;
 import com.wzy.domain.BizArticle;
-import com.wzy.domain.SysContent;
 import com.wzy.service.BizArticleService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -63,12 +69,38 @@ public class BizArticleController extends AbstractController {
             int current = param.getInteger("current");
             int size = param.getInteger("size");
             BizArticle bizArticle = new BizArticle();
+            if(param.containsKey("date")){
+                bizArticle = createCondition(bizArticle ,param.getString("date"));
+            }
             Page<BizArticle> page = new Page<>(current, size);
             Page<BizArticle> sysResources = bizArticleService.queryCondition(page,bizArticle);
             return ResultMsg.success(sysResources);
         } catch (Exception e) {
             return ResultMsg.create(400, e.toString());
         }
+    }
+    @PostMapping("/queryAriticesTotal")
+    @ResponseBody
+    public ResultMsg queryAriticesTotal() {
+        try {
+            BizArticle bizArticle = new BizArticle();
+            List<BizArticle> sysResources = bizArticleService.queryCondition(bizArticle);
+            return ResultMsg.success(sysResources.size());
+        } catch (Exception e) {
+            return ResultMsg.create(400, e.toString());
+        }
+    }
+    @RequestMapping("/blogList/{current}")
+    public String blogPage(@PathVariable(required = false)Integer current, Model model){
+        try{
+            BizArticle bizArticle = new BizArticle();
+            Page<BizArticle> page = new Page<>(current, 3);
+            Page<BizArticle> sysResources = bizArticleService.queryCondition(page,bizArticle);
+            model.addAttribute("resources",sysResources);
+        }catch (Exception e){
+            log.error(e.getMessage());
+        }
+        return "portal/blog::article_type";
     }
     /**
      * 查询文章详情
@@ -79,14 +111,70 @@ public class BizArticleController extends AbstractController {
     public ModelAndView singlePost(@PathVariable Integer tid){
         ModelAndView modal = new ModelAndView();
         try{
-            BizArticle bizArticles = bizArticleService.selectById(tid);
-            modal.addObject("detail",bizArticles);
+            BizArticle bizArticle = new BizArticle();
+            bizArticle.setId(Long.parseLong(tid.toString()));
+            List<BizArticle> bizArticles = bizArticleService.queryCondition(bizArticle);
+            modal.addObject("detail",bizArticles.stream().findFirst().get());
             modal.setViewName("portal/single-post");
         }catch (Exception e){
             log.error(e.getMessage());
         }
         return modal;
     }
+    /**
+     * 查询文章详情
+     * @return
+     */
+    @RequestMapping("/queryRecentSixMonthTotal")
+    @ResponseBody
+    public ResultMsg queryRecentSixMonthTotal() {
+        try {
+            Map<String, Object> bizArticles = bizArticleService.queryRecentSixMonthTotal();
+            return ResultMsg.success(bizArticles);
+        } catch (Exception e) {
+            log.error(e.getMessage());
+            return ResultMsg.success();
+        }
+    }
 
+    @GetMapping("/queryRecentSixMonthCondition")
+    public String queryRecentSixMonthCondition(@RequestParam(required = false)String date,Model model) {
+        try{
+            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+            Calendar calendar = Calendar.getInstance();
+            try {
+                calendar.setTime(format.parse(date));
+                calendar.add(Calendar.MONTH,1);
+                System.out.println(format.format(calendar.getTime()));
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+            String startDate = date;
+            String endDate = format.format(calendar.getTime());
+            BizArticle bizArticle = new BizArticle();
+            bizArticle.setStartDate(startDate).setEndDate(endDate);
+            Page<BizArticle> page = new Page<>(1, 3);
+            Page<BizArticle> sysResources =  bizArticleService.queryCondition( page,bizArticle);
+            model.addAttribute("resources",sysResources);
+        }catch (Exception e){
+            log.error(e.getMessage());
+        }
+        return "portal/blog::article_type";
+    }
+    public static BizArticle createCondition(BizArticle bizArticle,String date){
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar calendar = Calendar.getInstance();
+        try {
+            calendar.setTime(format.parse(date));
+            calendar.add(Calendar.MONTH,1);
+            System.out.println(format.format(calendar.getTime()));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        String startDate = date;
+        String endDate = format.format(calendar.getTime());
+        bizArticle.setStartDate(startDate).setEndDate(endDate);
+        return bizArticle;
+    }
 }
 

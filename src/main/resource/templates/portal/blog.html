@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>在路上</title>
+        <title>On The Way</title>
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +18,12 @@
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
         <script src="../../static/portal/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="../../static/portal/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="../../static/js/common/common.js"></script>
+        <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
+
+        <script src="../../static/portal/js/plugins.js"></script>
+        <script src="../../static/portal/js/main.js"></script>
     </head>
 
 
@@ -44,15 +50,63 @@
     <div class="blog-entries">
         <div class="container">
             <div class="col-md-9">
-                <div class="blog-posts">
-                    <div id="contents" class="row">
+<!--                <div class="blog-posts" th:fragment="article_type" id="contents_refresh">-->
+<!--                    <div id="contents" class="row"  th:each="resource:${resources.records}">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <div class="blog-post">-->
+<!--                                <img src="img/blog_post_3.png" alt="">-->
+<!--                                <div class="text-content">-->
+<!--                                    <span><a href="#" th:text="${resource.userId}"></a> /-->
+<!--                                        <a href="#" th:text="${#dates.format(resource.createTime, 'yyyy-MM-dd HH:mm:ss')}"></a> /-->
+<!--                                        <a href="#" th:text="${resource.type}"></a></span>-->
+<!--                                    <h2 th:text="${resource.title}"></h2>-->
+<!--                                    <p th:text="${resource.description}"></p>-->
+<!--                                    <div class="simple-btn">-->
+<!--                                       <a th:href="@{'../bizArticle/singlePost/'+${resource.id}}">继续阅读</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash;<div class="col-md-12">-->
+<!--                            <div class="blog-post">-->
+<!--                                <img src="img/blog_post_1.png" alt="">-->
+<!--                                <div class="text-content">-->
+<!--                                    <span><a href="#">Admin</a> / <a href="#">16 September 2018</a> / <a href="#">Branding</a></span>-->
+<!--                                    <h2>Duis mollis orci vel lectus</h2>-->
+<!--                                    <p>Proin at augue quam. In laoreet arcu id lacus fringilla auctor. Etiam rutrum aliquet nisl, eu fermentum elit fermentum sed. Donec finibus urna sed sollicitudin egestas. In hac habitasse platea dictumst. -->
+<!--                                    <br><br>Phasellus purus turpis, porta non lectus vitae, laoreet blandit diam. Suspendisse elementum ligula at purus gravida, vel malesuada dolor accumsan. Morbi finibus dapibus ex, ut finibus felis.</p>-->
+<!--                                    <div class="simple-btn">-->
+<!--                                        <a href="single-post.html">continue reading</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-12">-->
+<!--                            <div class="blog-post">-->
+<!--                                <img src="img/blog_post_2.png" alt="">-->
+<!--                                <div class="text-content">-->
+<!--                                    <span><a href="#">Admin</a> / <a href="#">28 August 2018</a> / <a href="#">Lifestyle</a></span>-->
+<!--                                    <h2>Integer scelerisque odio elit</h2>-->
+<!--                                    <p>Aliquam erat volutpat. Donec condimentum ante nec sapien sodales, ut molestie mauris scelerisque. Maecenas in turpis sed odio pretium tempor. In libero tellus, maximus in accumsan id, posuere non urna. -->
+<!--                                    <br><br>Fusce ex elit, congue vitae interdum et, sodales vitae purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque id egestas nibh. Curabitur convallis cursus pharetra. Curabitur non ligula id lacus pulvinar sollicitudin. Etiam quis tempus lectus, sed iaculis ex.</p>-->
+<!--                                    <div class="simple-btn">-->
+<!--                                        <a href="single-post.html">continue reading</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>&ndash;&gt;-->
+
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="blog-posts" >
+                    <div id="contents" >
                         <!--<div class="col-md-12">
                             <div class="blog-post">
                                 <img src="img/blog_post_1.png" alt="">
                                 <div class="text-content">
                                     <span><a href="#">Admin</a> / <a href="#">16 September 2018</a> / <a href="#">Branding</a></span>
                                     <h2>Duis mollis orci vel lectus</h2>
-                                    <p>Proin at augue quam. In laoreet arcu id lacus fringilla auctor. Etiam rutrum aliquet nisl, eu fermentum elit fermentum sed. Donec finibus urna sed sollicitudin egestas. In hac habitasse platea dictumst. 
+                                    <p>Proin at augue quam. In laoreet arcu id lacus fringilla auctor. Etiam rutrum aliquet nisl, eu fermentum elit fermentum sed. Donec finibus urna sed sollicitudin egestas. In hac habitasse platea dictumst.
                                     <br><br>Phasellus purus turpis, porta non lectus vitae, laoreet blandit diam. Suspendisse elementum ligula at purus gravida, vel malesuada dolor accumsan. Morbi finibus dapibus ex, ut finibus felis.</p>
                                     <div class="simple-btn">
                                         <a href="single-post.html">continue reading</a>
@@ -66,28 +120,15 @@
                                 <div class="text-content">
                                     <span><a href="#">Admin</a> / <a href="#">28 August 2018</a> / <a href="#">Lifestyle</a></span>
                                     <h2>Integer scelerisque odio elit</h2>
-                                    <p>Aliquam erat volutpat. Donec condimentum ante nec sapien sodales, ut molestie mauris scelerisque. Maecenas in turpis sed odio pretium tempor. In libero tellus, maximus in accumsan id, posuere non urna. 
+                                    <p>Aliquam erat volutpat. Donec condimentum ante nec sapien sodales, ut molestie mauris scelerisque. Maecenas in turpis sed odio pretium tempor. In libero tellus, maximus in accumsan id, posuere non urna.
                                     <br><br>Fusce ex elit, congue vitae interdum et, sodales vitae purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque id egestas nibh. Curabitur convallis cursus pharetra. Curabitur non ligula id lacus pulvinar sollicitudin. Etiam quis tempus lectus, sed iaculis ex.</p>
                                     <div class="simple-btn">
                                         <a href="single-post.html">continue reading</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="blog-post">
-                                <img src="img/blog_post_3.png" alt="">
-                                <div class="text-content">
-                                    <span><a href="#">Admin</a> / <a href="#">31 July 2018</a> / <a href="#">Work Stuff</a></span>
-                                    <h2>Nulla condimentum at dui eu</h2>
-                                    <p>Cras ultrices ex sodales, vestibulum leo quis, volutpat mauris. In pretium vehicula dolor, sit amet ornare orci placerat sit amet. Nam non dolor sagittis, dignissim purus at, fringilla lacus. In aliquet, sapien ut lobortis molestie, lorem diam commodo leo, vitae eleifend diam justo ac velit.
-                                    <br><br>ras felis purus, efficitur vel luctus a, ultrices vitae diam. Maecenas maximus vehicula aliquet. Donec scelerisque, diam id dapibus ultrices, tortor tellus eleifend arcu, maximus iaculis mi elit sit amet odio. Donec at mauris sit amet velit tempus semper.</p>
-                                    <div class="simple-btn">
-                                        <a href="single-post.html">continue reading</a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>-->
+
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -96,12 +137,14 @@
                         <li><a href="#">2</a></li>
                         <li><a href="#">3</a></li>
                         <li><a href="#">></a></li>
-                    </ul>-->
+                   </ul>-->
                     <div id="pageBox" style="width:1000px;margin: 30px auto;">
                     </div>
                 </div>
             </div>
-            <div class="col-md-3" >
+            <!--左侧菜单-->
+<!--            <div class="col-md-3" id="right_meun" /></div>-->
+            <div class="col-md-3"  id="meun_refresh">
                 <div class="side-bar" >
                     <div class="search">
                         <fieldset>
@@ -112,21 +155,21 @@
                         <div class="sidebar-heding">
                             <h2>Archives</h2>
                         </div>
-                        <ul>
+                        <ul id="recentSixMonthTotal">
                             <li><a href="#">> 2018 September (4)</a></li>
-                            <li><a href="#">> 2018 August (16)</a></li>
+                            <!--<li><a href="#">> 2018 August (16)</a></li>
                             <li><a href="#">> 2018 July (5)</a></li>
                             <li><a href="#">> 2018 May (3)</a></li>
                             <li><a href="#">> 2018 February (27)</a></li>
                             <li><a href="#">> 2017 December (18)</a></li>
-                            <li><a href="#">> 2017 November (12)</a></li>
+                            <li><a href="#">> 2017 November (12)</a></li>-->
                         </ul>
                     </div>
                     <div class="recent-posts">
                         <div class="sidebar-heding">
                             <h2>Recent Posts</h2>
                         </div>
-                        <ul >
+                        <ul>
                             <li><a href="single-post.html">
                                 <img src="img/recent_post_1.png" alt="Recent Post 1">
                                 <div class="text">
@@ -179,22 +222,15 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
 
-    <footer>
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <p>Copyright &copy; 2018 Company Name 
-    
-    | More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-            </div>
-        </div>
-    </footer>
+    <footer id="footer-way"></footer>
 
 
-      <!-- Modal button -->
+    <!-- Modal button -->
     <div class="popup-icon">
       <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
     </div>  
@@ -239,95 +275,112 @@
         </div>
       </div>
     </div>
+    <!--目录-->
+    <section class="overlay-menu"></section>
+</body>
 
-    
-
-    <section class="overlay-menu">
-      <div class="container">
-        <div class="row">
-          <div class="main-menu">
-              <ul>
-                  <li>
-                      <a href="index.html">Home - Full-width</a>
-                  </li>
-                  <li>
-                      <a href="masonry.html">Home - Masonry</a>
-                  </li>
-                  <li>
-                      <a href="grid.html">Home - Small-width</a>
-                  </li>
-                  <li>
-                      <a href="about.html">About Us</a>
-                  </li>
-                  <li>
-                      <a href="blog.html">Blog Entries</a>
-                  </li>
-                  <li>
-                      <a href="single-post.html">Single Post</a>
-                  </li>
-              </ul>
-              <p>We create awesome templates for you</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <script src="../../static/portal/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="../../static/js/common/common.js"></script>
-    <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
-    
-    <script src="../../static/portal/js/plugins.js"></script>
-    <script src="../../static/portal/js/main.js"></script>
     <script>
         $(document).ready(function () {
-         /*   var param = {
-                current:1,
-                size:3
-            }
-            syncPost("../api/user/queryAlluser",JSON.stringify(param),function(data){
-                console.log(data)
-            })*/
-                renderPageItem();
-        });
+            // pageFunction()
+            // initRightArchives()
+            render()
+            initRightArchives();
 
+        });
+        $("#footer-way").load("/public/footer.html")
+        $(".overlay-menu").load("/public/catalog.html")
+        // $("#right_meun").load("/public/right.html")
+        /**
+         ** 右侧档案数据
+         * */
+        function initRightArchives(){
+            syncPost("../bizArticle/queryRecentSixMonthTotal","",function(data){
+               var records =  data.data;
+               $recentSixMonthTotal =  $("#recentSixMonthTotal")
+               $recentSixMonthTotal.empty();
+                    $.map(records,function (value,key) {
+                        var param = key.replace("年","-").replace("月","-01")
+                        var end = '"'+param+'"'
+                        $recentSixMonthTotal.append("<li><a href='javascript:void(0);' onclick='quueryRightArchives("+end+")'>>"+key+'('+value +')'+"</a></li>")
+                    })
+                });
+        }
+        function quueryRightArchives(key){
+            // $('#contents_refresh').load("../bizArticle/queryRecentSixMonthCondition?date="+key);
+            render(1,key)
+        }
+        /**
+         ** 页面总数
+         * */
+        /*function pageFunction(){
+            syncPost("../bizArticle/queryAriticesTotal","",function(data){
+                total = data.data;
+                renderPageItem();
+            })
+        }*/
         /**
          * 加载资源
          * @param current
          */
         function initLoadContent(current){
-          var param = {
-                       current:current,
-                       size:3
-           }
-           syncPost("../api/sysResources/queryCondition",param,function(data){
-               console.log(data)
-               var $content = $("#contents");
-               $content.empty();
-               data.data.records.forEach(function (info) {
-                   $content.append('<div class="col-md-12"> <div class="blog-post"> <img src="img/blog_post_1.png" alt=""><div class="text-content"> <span>'
-                       + '<a href="#">'+ info.name+'</a> /'
-                       + '<a href="#">'+ info.createdAt+'</a> / '
-                       + '<a href="#">'+info.type+'</a></span>'
-                       + '<h2>'+info.title+'</h2>'
-                       + '<p>'+info.description+'</p>'
-                       + '<div class="simple-btn"><a href="./singlePost?tid='+info.tid +'">继续阅读</a></div>'
-                       + ' </div> </div> </div>');
-               });
-           })
+            // render(current)
+            // $('#contents_refresh').load("../bizArticle/blogList/"+current);
         }
 
-
-        var total = 500,//数据总条数
-            pageNumber = 1,//当前页
-            pageSize = 10, //每页显示的条数
+        var total = 0//数据总条数
+        pageNumber = 1,//当前页
+            pageSize = 3, //每页显示的条数
             edges = 2,//两侧显示的页码数 大于1
             playes = 5,//主页码区显示的页码数 大于3
-            pages = Math.ceil(total / pageSize);//总页数
+            pages = 0;//总页数
+
+        function render(current,date) {
+            if(!current){
+                current = 1
+            }
+            var param = {
+                current:current,
+                size:3
+            }
+            if(current){
+                param = {
+                    current:current,
+                    size:3,
+                    date:date
+                }
+            }
+            syncPost("../bizArticle/queryCondition",param,function(data){
+                var datas = data.data;
+                var $content = $("#contents");
+                $content.empty();
+                datas.records.forEach(function (info) {
+                    $content.append('<div class="col-md-12"> <div class="blog-post"> <img src="img/blog_post_1.png" alt=""><div class="text-content"> <span>'
+                        + '<a href="#">'+ info.userId+'</a> /'
+                        + '<a href="#">'+ info.createTime+'</a> / '
+                        + '<a href="#">'+info.type+'</a></span>'
+                        + '<h2>'+info.title+'</h2>'
+                        + '<p>'+info.description+'</p>'
+                        + '<div class="simple-btn"><a href="../bizArticle/singlePost/'+info.id +'">继续阅读</a></div>'
+                        + ' </div> </div> </div>');
+                });
+                total = datas.total
+                renderPageItem();
+            })
+        }
 
         function renderPageItem() {
             $ul = $('<ul class="page-number"></ul>');
             var start = 1;
+            pages = Math.ceil(total / pageSize)
+            if(total<=3){
+                playes = 1
+                edges=1
+            }else{
+                playes = 5
+                edges=2
+            }
             var end = pages;
+
             if (playes % 2) {
                 //playes是奇数
                 start = pageNumber - Math.floor(playes / 2);
@@ -369,8 +422,7 @@
             $ul.prepend(renderPrevItem());
             $ul.append(renderNextItem());
             $('#pageBox').empty().append($ul);
-            //load
-            initLoadContent(pageNumber);
+
         }
 
         function renderItem(i) {
@@ -382,6 +434,7 @@
                 return function () {
                     pageNumber = num;
                     renderPageItem();
+                    render(pageNumber)
                 }
             })(i));
             return $item
@@ -395,6 +448,7 @@
                 $prev.on('click', function () {
                     pageNumber = pageNumber - 1;
                     renderPageItem();
+                    render(pageNumber)
                 })
             }
             return $prev;
@@ -408,6 +462,7 @@
                 $next.on('click', function () {
                     pageNumber = pageNumber + 1;
                     renderPageItem();
+                    render(pageNumber)
                 })
             }
             return $next;

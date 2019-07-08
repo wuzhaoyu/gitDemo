@@ -4,6 +4,10 @@ import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.IService;
 import com.wzy.domain.BizArticle;
 
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+
 /**
  * <p>
  *  服务类
@@ -20,4 +24,18 @@ public interface BizArticleService extends IService<BizArticle> {
      * @return
      */
     Page<BizArticle> queryCondition(Page<BizArticle> page, BizArticle bizArticle);
+
+    /**
+     * 条件查询
+     * @param bizArticle
+     * @param bizArticle
+     * @return
+     */
+    List<BizArticle> queryCondition(BizArticle bizArticle);
+
+    /**
+     * 近六个月的文章统计
+     * @return
+     */
+    Map<String,Object> queryRecentSixMonthTotal();
 }

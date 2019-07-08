@@ -31,10 +31,40 @@
     <select id="queryCondition" resultType="com.wzy.domain.BizArticle">
          SELECT
             le.*,
-            pe.NAME AS type
+            pe.NAME AS type,
+			GROUP_CONCAT(tags.name) as tagName
         FROM
             biz_article le
             LEFT JOIN biz_type pe ON le.type_id = pe.id
+						LEFT JOIN biz_article_tags tag on le.id = tag.article_id
+						LEFT JOIN biz_tags tags on tags.id = tag.tag_id
+
+		where 1=1
+		<if test="id!=null and id!=''">
+            and le.id = #{id}
+        </if>
+        <if test="startDate!=null and startDate!=''">
+            AND  DATE_FORMAT( le.create_time, '%Y-%m-%d' ) >= DATE_FORMAT(#{startDate},'%Y-%m-%d')
+        </if>
+        <if test="endDate!=null and endDate!=''">
+            AND DATE_FORMAT( le.create_time, '%Y-%m-%d' )  &lt;= DATE_FORMAT(#{endDate},'%Y-%m-%d')
+        </if>
+        GROUP BY le.id
+    </select>
+    <select id="queryRecentSixMonthTotal" resultType="java.lang.Long">
+            SELECT
+            count( * )
+            FROM
+            `biz_article`
+            WHERE 1=1
+            <if test="startDate!=null and startDate!=''">
+                AND  DATE_FORMAT( create_time, '%Y-%m-%d' ) >= DATE_FORMAT(#{startDate},'%Y-%m-%d')
+            </if>
+            <if test="endDate!=null and endDate!=''">
+                  AND DATE_FORMAT( create_time, '%Y-%m-%d' )  &lt;= DATE_FORMAT(#{endDate},'%Y-%m-%d')
+            </if>
+
+
     </select>
 
 </mapper>
