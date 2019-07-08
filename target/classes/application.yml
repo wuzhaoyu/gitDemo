@@ -16,7 +16,7 @@ spring:
     multipart:
       max-file-size: 20MB
   mvc:
-     static-path-pattern: /static/** ,/templates/**
+     static-path-pattern: /static/** ,/templates/**,/public/**
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/eladmin?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
@@ -81,3 +81,9 @@ logging:
     java.sql: debug
     org.springframework.web: trace
   path: ./logs
+management:
+  health:
+    db:
+      enabled: true
+    defaults:
+      enabled: true
