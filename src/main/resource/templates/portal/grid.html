@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.w3.org/1999/xhtml">
+<body xmlns:th="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>在路上</title>
+        <title>On The Way</title>
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -366,18 +366,7 @@
 <!--            </div>-->
 <!--        </div>-->
     </div>
-
-
-    <footer>
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <p>Copyright &copy; 2019 Company Name
-    
-    | QZ <a href="http://106.14.10.158:8085/" target="_blank" title="在路上">在路上</a></p>
-            </div>
-        </div>
-    </footer>
-
+    <footer id="footer-way"></footer>
 
       <!-- Modal button -->
     <div class="popup-icon">
@@ -425,38 +414,10 @@
       </div>
     </div>
 
-    
+     <!--目录-->
+    <section class="overlay-menu"></section>
 
-    <section class="overlay-menu">
-      <div class="container">
-        <div class="row">
-          <div class="main-menu">
-              <ul>
-                <!--  <li>
-                      <a href="./index">Home - Full-width</a>
-                  </li>
-                  <li>
-                      <a href="masonry.html">Home - Masonry</a>
-                  </li>-->
-                  <li>
-                      <a href="./grid">首页</a>
-                  </li>
-                  <li>
-                      <a href="./about">关于我们</a>
-                  </li>
-                  <li>
-                      <a href="./blog">博客条目</a>
-                  </li>
-                  <li>
-                      <a href="./singlePost">单一帖子</a>
-                  </li>
-              </ul>
-              <p>努力只为你</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+</body>
     <script src="../../static/portal/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
     
@@ -470,6 +431,8 @@
     <script src="../../static/portal/assets/js/demo.js"></script>
     <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
     <script>
+        $("#footer-way").load("/public/footer.html")
+        $(".overlay-menu").load("/public/catalog.html")
         $(document).ready(function () {
            /* var param = {
                 current:1,
@@ -478,6 +441,7 @@
             syncPost("../api/user/queryAlluser",JSON.stringify(param),function(data){
               console.log(data)
             })*/
+
         });
         function go_source(a) {
             window.location.href = a

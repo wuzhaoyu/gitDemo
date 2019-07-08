@@ -1,14 +1,19 @@
 package com.wzy.controller.transmint;
 
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.plugins.Page;
+import com.wzy.domain.BizArticle;
 import com.wzy.domain.SysContent;
+import com.wzy.service.BizArticleService;
 import com.wzy.service.SysContentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
@@ -23,37 +28,57 @@ import java.util.Map;
  * @version V1.0
  **/
 @Controller
-@RequestMapping("/portal")
+@RequestMapping(value={"/portal","/"})
 public class PortalController {
 
     private static final Logger log = LoggerFactory.getLogger(PortalController.class);
-
+    @Autowired
+    private BizArticleService bizArticleService;
 
     @Autowired
     private SysContentService sysContentService;
+
+    @RequestMapping("/")
+    public String index(){
+        return "portal/grid";
+    }
     @RequestMapping("/index")
+
     public String helloWorld(){
         return "portal/index";
     }
 
-    @RequestMapping("/blog")
+    /*@RequestMapping("/blog")
     public String blogPage(){
         return "portal/blog";
+    }*/
+    @RequestMapping("/blog")
+    public ModelAndView blogPage(){
+        ModelAndView modal = new ModelAndView();
+        try{
+            BizArticle bizArticle = new BizArticle();
+            Page<BizArticle> page = new Page<>(1, 3);
+            Page<BizArticle> sysResources = bizArticleService.queryCondition(page,bizArticle);
+            modal.addObject("resources",sysResources);
+            modal.setViewName("portal/blog");
+        }catch (Exception e){
+            log.error(e.getMessage());
+        }
+        return modal;
     }
+    @RequestMapping("/footer")
+    public String footer(){  return "portal/public/footer"; }
 
-    @RequestMapping("/demo")
-    public String demo(){
-        return "portal/demo1";
-    }
+    @RequestMapping("/catalog")
+    public String catalog(){  return "portal/public/catalog"; }
 
-    @RequestMapping("/singlePost")
-    public ModelAndView singlePost(@RequestParam("tid") Integer tid){
+    @RequestMapping("/singlePost/{tid}")
+    public ModelAndView singlePost(@PathVariable Integer tid){
         ModelAndView modal = new ModelAndView();
         try{
             SysContent sysResources = sysContentService.selectById(tid);
             modal.addObject("detail",sysResources);
             modal.setViewName("portal/single-post");
-//            modal.setViewName("portal/demo1");
         }catch (Exception e){
             log.error(e.getMessage());
         }
@@ -64,22 +89,16 @@ public class PortalController {
     public String about(){
         return "portal/about";
     }
+
     @RequestMapping("/grid")
     public ModelAndView grid(ModelAndView modal){
-//        modal.setViewName("ftl/userList");
-//        List<User> us =  userService.selectList(new EntityWrapper<User>());
-//        modal.addObject("userList",us);
         try{
-            /*int current = param.getInteger("current");
-            int size = param.getInteger("size");*/
             int current =1;
             int size = 6;
             Map<String, Object> map = new HashMap<>();
             SysContent resource = new SysContent();
-//        SubsidiaryCertificate subsidiaryCertificate = param.getObject ( "data",SubsidiaryCertificate.class );
             Page<SysContent> page = new Page<SysContent>(current, size);
             Page<SysContent> sysResources = sysContentService.queryCondition(page,resource);
-//            Page<SysResources> list = page.setRecords(sysResources);
             modal.addObject("resources",sysResources.getRecords());
             modal.setViewName("portal/grid");
         }catch (Exception e){

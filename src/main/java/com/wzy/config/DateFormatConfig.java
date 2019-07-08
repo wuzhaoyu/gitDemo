@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import org.springframework.boot.jackson.JsonComponent;
+import org.springframework.context.annotation.Configuration;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -27,8 +28,10 @@ public class DateFormatConfig {
     private static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     /**
-     * 日期格式化
-     */
+     * 日期格式化@ 2019/7/8
+      * @Param
+      * @return
+      **/
     public static class DateJsonSerializer extends JsonSerializer<Date> {
         @Override
         public void serialize(Date date, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
