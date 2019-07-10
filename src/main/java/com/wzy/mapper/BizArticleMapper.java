@@ -38,4 +38,11 @@ public interface BizArticleMapper extends BaseMapper<BizArticle> {
      * @return
      */
     Long queryRecentSixMonthTotal(@Param("startDate") String startDate,@Param("endDate")  String endDate);
+
+    /**
+     * 按照文章分组
+     * @param
+     * @return
+     */
+    List<Map<String,Object>> queryAritcleGroupByType();
 }

@@ -31,7 +31,7 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     public Page<BizArticle> queryCondition(Page<BizArticle> page, BizArticle bizArticle) {
         List<BizArticle> bizArticles = mapper.queryCondition(page, bizArticle);
         page.setRecords(bizArticles);
-        page.setTotal(mapper.queryCondition( bizArticle).size());
+        page.setTotal(mapper.queryCondition(bizArticle).size());
         return page;
     }
 
@@ -63,6 +63,11 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
         }
         System.out.println(map);
         return BeanMapUtils.sortMapByKey(map);
+    }
+
+    @Override
+    public List<Map<String, Object>> queryAritcleGroupByType() {
+        return mapper.queryAritcleGroupByType();
     }
 
 

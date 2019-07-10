@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -90,11 +91,23 @@ public class BizArticleController extends AbstractController {
             return ResultMsg.create(400, e.toString());
         }
     }
-    @RequestMapping("/blogList/{current}")
-    public String blogPage(@PathVariable(required = false)Integer current, Model model){
+    @PostMapping("/blogList")
+    public String blogPage(@RequestBody JSONObject param, Model model){
         try{
+            int current = param.getInteger("current");
+            int size = param.getInteger("size");
             BizArticle bizArticle = new BizArticle();
-            Page<BizArticle> page = new Page<>(current, 3);
+            if(param.containsKey("date")){
+                if(!StringUtils.isEmpty(param.getString("date"))){
+                    bizArticle = createCondition(bizArticle ,param.getString("date"));
+                }
+            }
+            if(param.containsKey("typeId")){
+                if(!StringUtils.isEmpty(param.getString("typeId"))){
+                    bizArticle = bizArticle.setTypeId(Long.parseLong(param.getString("typeId")));
+                }
+                }
+            Page<BizArticle> page = new Page<>(current, size);
             Page<BizArticle> sysResources = bizArticleService.queryCondition(page,bizArticle);
             model.addAttribute("resources",sysResources);
         }catch (Exception e){
@@ -160,6 +173,38 @@ public class BizArticleController extends AbstractController {
             log.error(e.getMessage());
         }
         return "portal/blog::article_type";
+    }
+
+    /**
+     * 最近更新
+     * @param model
+     * @return
+     */
+    @PostMapping("/recentPosts")
+    public String recentPosts(Model model) {
+        try{
+            Page<BizArticle> page = new Page<>(1, 3);
+            Page<BizArticle> sysResources =  bizArticleService.queryCondition( page,new BizArticle() );
+            model.addAttribute("recentPosts",sysResources);
+        }catch (Exception e){
+            log.error(e.getMessage());
+        }
+        return "portal/blog::article_recentPosts";
+    }
+    /**
+     * 分类文章
+     * @param model
+     * @return
+     */
+    @PostMapping("/queryAritcleGroupByType")
+    public String queryAritcleGroupByType(Model model) {
+        try{
+            List<Map<String,Object>> groupAritcles =  bizArticleService.queryAritcleGroupByType();
+            model.addAttribute("groupAritcles",groupAritcles);
+        }catch (Exception e){
+            log.error(e.getMessage());
+        }
+        return "portal/blog::article_groupAritcle";
     }
     public static BizArticle createCondition(BizArticle bizArticle,String date){
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");

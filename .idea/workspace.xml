@@ -2,48 +2,22 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/resource/application.yml" line="16" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" line="294" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cce73c90-221c-41a9-9284-e8b1f0f52159" name="Default" comment="文件整理">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/MysqlGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/common/BeanMapUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/common/DateTransUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/common/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/common/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/public/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/public/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/public/right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/com/wzy/BeanFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="cce73c90-221c-41a9-9284-e8b1f0f52159" name="Default" comment="配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/config/DateFormatConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/config/DateFormatConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/AbstractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/AbstractController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" afterDir="false" />
     </list>
     <list id="f4cede8f-5321-43b1-9878-9c04e8e3ddb6" name="DontCare" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
@@ -64,13 +38,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="379" column="23" selection-start-line="379" selection-start-column="23" selection-end-line="379" selection-end-column="23" />
+            <state relative-caret-position="87">
+              <caret line="125" column="74" selection-start-line="125" selection-start-column="74" selection-end-line="125" selection-end-column="74" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#16#23#1" expanded="true" />
                 <element signature="e#16#23#1" expanded="true" />
@@ -79,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="75" column="75" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
+            <state relative-caret-position="417">
+              <caret line="42" column="74" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,13 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="255" column="115" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -106,10 +89,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+            <state relative-caret-position="199">
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2309#2310#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,33 +103,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+            <state relative-caret-position="-615">
+              <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/public/right.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="120" selection-start-line="10" selection-start-column="10" selection-end-line="11" selection-end-column="120" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,20 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="49" column="99" selection-start-line="49" selection-start-column="99" selection-end-line="49" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -184,23 +136,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navigationItem</find>
-      <find>pageBox</find>
-      <find>editormd</find>
-      <find>html</find>
-      <find>options</find>
-      <find>themes</find>
-      <find>首页</find>
-      <find>assets</find>
-      <find>LOG_PATH</find>
-      <find>APP_DIR</find>
-      <find>CONSOLE_LOG_PATTERN</find>
-      <find>TEST_FILE_PATH</find>
-      <find>addGenericMapping</find>
-      <find>footer-way</find>
       <find>contents</find>
-      <find>article_type</find>
-      <find>contents_refresh</find>
       <find>pageNumber</find>
       <find>total</find>
       <find>pages</find>
@@ -210,10 +146,26 @@
       <find>pageContain</find>
       <find>onPageClicked</find>
       <find>render</find>
-      <find>detailContent</find>
       <find>initLoadContent</find>
-      <find>playes</find>
       <find>singlePost</find>
+      <find>playes</find>
+      <find>detailContent</find>
+      <find>context</find>
+      <find>ge</find>
+      <find>blog1</find>
+      <find>contents_refresh</find>
+      <find>article_type</find>
+      <find>resources.records</find>
+      <find>resources</find>
+      <find>initLoadRecentPosts</find>
+      <find>blogList</find>
+      <find>recentSixMonthTotal</find>
+      <find>groupAritcles</find>
+      <find>quueryArticleGroup</find>
+      <find>groupAritcle</find>
+      <find>page_totalnum</find>
+      <find>recentPosts</find>
+      <find>deb</find>
     </findStrings>
     <replaceStrings>
       <replace>../../static/assets</replace>
@@ -254,28 +206,28 @@
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/public/footer.html" />
         <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/AbstractController.java" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/public/catalog.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" />
         <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/BeanFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/DateFormatConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/DateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/DateTransUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/BeanMapUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/public/right.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" />
       </list>
     </option>
   </component>
@@ -328,8 +280,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -398,6 +348,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wzy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="transmint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wzy" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -440,27 +400,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
@@ -478,6 +418,16 @@
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
@@ -540,10 +490,38 @@
               <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -565,7 +543,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47157434" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -602,9 +580,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
+  <component name="RunManager" selected="Application.DateTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.ClassLoadTest" />
+      <module name="OnTheWay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -625,20 +617,6 @@
     </configuration>
     <configuration name="TCPNioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.http.tcp.NIO.TCPNioClient" />
-      <module name="OnTheWay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.http.tcp.NIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TCPNioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.http.tcp.NIO.TCPNioServer" />
       <module name="OnTheWay" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -739,20 +717,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TCPNioServer" />
       <item itemvalue="Application.TCPNioClient" />
       <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.DateTest" />
+      <item itemvalue="Application.ClassLoadTest" />
       <item itemvalue="Maven.maven" />
       <item itemvalue="Spring Boot.SystemApplication" />
-      <item itemvalue="Application.DateTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Application.DateTest" />
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="Application.ClassLoadTest" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.TCPNioClient" />
-        <item itemvalue="Application.TCPNioServer" />
       </list>
     </recent_temporary>
   </component>
@@ -801,7 +779,8 @@
       <workItem from="1562065265880" duration="30489000" />
       <workItem from="1562150367319" duration="24208000" />
       <workItem from="1562290857997" duration="17699000" />
-      <workItem from="1562392440107" duration="51056000" />
+      <workItem from="1562392440107" duration="53833000" />
+      <workItem from="1562589231427" duration="24099000" />
     </task>
     <task id="LOCAL-00001" summary="admin管理页面">
       <created>1551358583185</created>
@@ -936,11 +915,32 @@
       <option name="project" value="LOCAL" />
       <updated>1562306581499</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="blog">
+      <created>1562584482716</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562584482716</updated>
+    </task>
+    <task id="LOCAL-00021" summary="blog">
+      <created>1562584517854</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562584517854</updated>
+    </task>
+    <task id="LOCAL-00022" summary="配置">
+      <created>1562584541038</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562584541038</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332159000" />
+    <option name="totallyTimeSpent" value="359035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -956,23 +956,22 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.15220484" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.58036983" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4953146" visible="true" weight="0.25035563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29587483" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953146" weight="0.4125178" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32951945" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" weight="0.23328592" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" weight="0.24324325" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5046854" side_tool="true" weight="0.81134754" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.409611" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.4679943" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27453768" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32859176" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49732262" weight="0.13229018" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49732262" weight="0.2290185" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
-      <window_info anchor="right" id="Module Dependencies" weight="0.3297587" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -985,6 +984,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" id="Maven" order="11" weight="0.26541555" />
+      <window_info anchor="right" id="Module Dependencies" order="12" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1038,7 +1038,9 @@
     <MESSAGE value="主页图片" />
     <MESSAGE value=" 全局日期格式化" />
     <MESSAGE value="文件整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件整理" />
+    <MESSAGE value="blog" />
+    <MESSAGE value="配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,6 +1063,31 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>sysResources</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>param.getString(&quot;typeId&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>,param.getString(&quot;typeId&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>groupAritcles</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mapper.queryCondition(bizArticle).size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>BeanMapUtils.sortMapByKey(map)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -1076,260 +1103,13 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sysResources</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>sysResources.getRecords()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>list</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sysContentMapper.queryCondition(page,sysResources)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>page</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>maxTidBh.substring(var3 - 2, var3)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/core/io/FileSystemResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/core/io/DefaultResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="21" column="143" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleLookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/AbstractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/public/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/vendor/jquery-1.11.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/js/common/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JIGSAW/spring.beans">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JIGSAW</ID>
-          <OriginalElement>spring.beans</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">spring.beans</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-226.0" y="9.5" />
-          <SelectedNodes>
-            <node>spring.beans</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1717">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.BeanFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.BeanFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.beans.factory.HierarchicalBeanFactory</node>
-            <node x="" y="">org.springframework.context.support.GenericXmlApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.FileSystemXmlApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.GenericApplicationContext.ClassDerivedBeanDefinition</node>
-            <node x="" y="">org.springframework.web.context.support.StaticWebApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext</node>
-            <node x="" y="">org.springframework.jca.context.ResourceAdapterApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.servlet.context.XmlServletWebServerApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.config.ConfigurableListableBeanFactory</node>
-            <node x="" y="">org.springframework.beans.factory.support.AbstractBeanFactory</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.FactoryAwareOrderSourceProvider</node>
-            <node x="" y="">org.springframework.context.ConfigurableApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.context.WebServerApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.Jsr330Factory</node>
-            <node x="" y="">org.springframework.boot.test.context.assertj.AssertableReactiveWebApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.reactive.context.ConfigurableReactiveWebApplicationContext</node>
-            <node x="" y="">org.springframework.boot.test.context.assertj.AssertableWebApplicationContext</node>
-            <node x="" y="">org.springframework.web.context.WebApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.StaticListableBeanFactory</node>
-            <node x="" y="">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.AbstractRefreshableConfigApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.AbstractApplicationContext</node>
-            <node x="" y="">org.springframework.web.context.support.XmlWebApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.AbstractRefreshableApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.reactive.context.GenericReactiveWebApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.ListableBeanFactory</node>
-            <node x="" y="">org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext</node>
-            <node x="" y="">org.springframework.test.web.servlet.setup.StubWebApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.AbstractXmlApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.config.AutowireCapableBeanFactory</node>
-            <node x="" y="">org.springframework.web.context.support.GroovyWebApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.ExistingWebApplicationScopes</node>
-            <node x="" y="">org.springframework.context.support.GenericGroovyApplicationContext</node>
-            <node x="" y="">org.springframework.test.web.servlet.setup.StubWebApplicationContext.StubBeanFactory</node>
-            <node x="" y="">org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.StaticApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.SerializedBeanFactoryReference</node>
-            <node x="" y="">org.springframework.context.support.ClassPathXmlApplicationContext</node>
-            <node x="" y="">org.springframework.web.context.support.AnnotationConfigWebApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.DependencyObjectProvider</node>
-            <node x="" y="">org.springframework.boot.web.context.ConfigurableWebServerApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.reactive.context.ReactiveWebApplicationContext</node>
-            <node x="" y="">org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.ServerManager</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.NestedDependencyDescriptor</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.Jsr330Factory.Jsr330Provider</node>
-            <node x="" y="">org.springframework.web.context.support.AbstractRefreshableWebApplicationContext</node>
-            <node x="" y="">org.springframework.boot.test.context.assertj.ApplicationContextAssertProvider</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.BeanObjectProvider</node>
-            <node x="" y="">org.springframework.context.ApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.MultiElementDescriptor</node>
-            <node x="" y="">org.springframework.context.support.GenericApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
-            <node x="" y="">org.springframework.web.context.ConfigurableWebApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.xml.XmlBeanFactory</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory.StreamDependencyDescriptor</node>
-            <node x="" y="">org.springframework.boot.test.context.assertj.AssertableApplicationContext</node>
-            <node x="" y="">org.springframework.jndi.support.SimpleJndiBeanFactory</node>
-            <node x="" y="">org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.AutowireByTypeDependencyDescriptor</node>
-            <node x="" y="">org.springframework.beans.factory.BeanFactory</node>
-            <node x="" y="">org.springframework.web.context.support.GenericWebApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
-            <node x="" y="">org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.config.ConfigurableBeanFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="4321.0" y="3400.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -1400,20 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="60" column="41" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="235" column="108" selection-start-line="235" selection-start-column="45" selection-end-line="235" selection-end-column="108" />
         </state>
       </provider>
     </entry>
@@ -1489,13 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/springReporsitory/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/plugins/Page.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1503,79 +1262,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/css/qunit-1.11.0.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/qunit-1.11.0.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/bootstrap-paginator.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="2618">
           <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java">
+    <entry file="jar://F:/springReporsitory/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar!/org/assertj/core/api/AbstractAssert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="23" column="69" selection-start-line="23" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java">
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-test/2.1.1.RELEASE/spring-boot-test-2.1.1.RELEASE.jar!/org/springframework/boot/test/context/assertj/ApplicationContextAssert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml">
+    <entry file="uml://JIGSAW/spring.beans">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JIGSAW</ID>
+          <OriginalElement>spring.beans</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">spring.beans</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-277.0" y="-69.0" />
+          <SelectedNodes>
+            <node>spring.beans</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/Lifecycle.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="49" column="99" selection-start-line="49" selection-start-column="99" selection-end-line="49" selection-end-column="99" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/css/qunit-1.11.0.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/qunit-1.11.0.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/bootstrap-paginator.js">
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/LifecycleProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="111" column="50" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="50" />
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/support/DefaultLifecycleProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="154" column="13" lean-forward="true" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/context/support/GenericWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="e#2097#2098#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/context/support/WebApplicationContextUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="177" column="52" lean-forward="true" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/plugins/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/public/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/public/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/view/ThymeleafView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/js/common/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="94" column="55" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+        <state relative-caret-position="-615">
+          <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="255" column="115" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="177">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="75" column="75" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1584,8 +1454,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        <state relative-caret-position="199">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1594,13 +1493,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="379" column="23" selection-start-line="379" selection-start-column="23" selection-end-line="379" selection-end-column="23" />
+        <state relative-caret-position="87">
+          <caret line="125" column="74" selection-start-line="125" selection-start-column="74" selection-end-line="125" selection-end-column="74" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="e#16#23#1" expanded="true" />
             <element signature="e#16#23#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="42" column="74" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

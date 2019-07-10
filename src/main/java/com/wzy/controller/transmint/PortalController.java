@@ -48,7 +48,7 @@ public class PortalController {
         return "portal/index";
     }
 
-    /*@RequestMapping("/blog")
+   /* @RequestMapping("/blog")
     public String blogPage(){
         return "portal/blog";
     }*/

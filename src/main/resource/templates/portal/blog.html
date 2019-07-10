@@ -50,56 +50,24 @@
     <div class="blog-entries">
         <div class="container">
             <div class="col-md-9">
-<!--                <div class="blog-posts" th:fragment="article_type" id="contents_refresh">-->
-<!--                    <div id="contents" class="row"  th:each="resource:${resources.records}">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <div class="blog-post">-->
-<!--                                <img src="img/blog_post_3.png" alt="">-->
-<!--                                <div class="text-content">-->
-<!--                                    <span><a href="#" th:text="${resource.userId}"></a> /-->
-<!--                                        <a href="#" th:text="${#dates.format(resource.createTime, 'yyyy-MM-dd HH:mm:ss')}"></a> /-->
-<!--                                        <a href="#" th:text="${resource.type}"></a></span>-->
-<!--                                    <h2 th:text="${resource.title}"></h2>-->
-<!--                                    <p th:text="${resource.description}"></p>-->
-<!--                                    <div class="simple-btn">-->
-<!--                                       <a th:href="@{'../bizArticle/singlePost/'+${resource.id}}">继续阅读</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash;<div class="col-md-12">-->
-<!--                            <div class="blog-post">-->
-<!--                                <img src="img/blog_post_1.png" alt="">-->
-<!--                                <div class="text-content">-->
-<!--                                    <span><a href="#">Admin</a> / <a href="#">16 September 2018</a> / <a href="#">Branding</a></span>-->
-<!--                                    <h2>Duis mollis orci vel lectus</h2>-->
-<!--                                    <p>Proin at augue quam. In laoreet arcu id lacus fringilla auctor. Etiam rutrum aliquet nisl, eu fermentum elit fermentum sed. Donec finibus urna sed sollicitudin egestas. In hac habitasse platea dictumst. -->
-<!--                                    <br><br>Phasellus purus turpis, porta non lectus vitae, laoreet blandit diam. Suspendisse elementum ligula at purus gravida, vel malesuada dolor accumsan. Morbi finibus dapibus ex, ut finibus felis.</p>-->
-<!--                                    <div class="simple-btn">-->
-<!--                                        <a href="single-post.html">continue reading</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-md-12">-->
-<!--                            <div class="blog-post">-->
-<!--                                <img src="img/blog_post_2.png" alt="">-->
-<!--                                <div class="text-content">-->
-<!--                                    <span><a href="#">Admin</a> / <a href="#">28 August 2018</a> / <a href="#">Lifestyle</a></span>-->
-<!--                                    <h2>Integer scelerisque odio elit</h2>-->
-<!--                                    <p>Aliquam erat volutpat. Donec condimentum ante nec sapien sodales, ut molestie mauris scelerisque. Maecenas in turpis sed odio pretium tempor. In libero tellus, maximus in accumsan id, posuere non urna. -->
-<!--                                    <br><br>Fusce ex elit, congue vitae interdum et, sodales vitae purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque id egestas nibh. Curabitur convallis cursus pharetra. Curabitur non ligula id lacus pulvinar sollicitudin. Etiam quis tempus lectus, sed iaculis ex.</p>-->
-<!--                                    <div class="simple-btn">-->
-<!--                                        <a href="single-post.html">continue reading</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>&ndash;&gt;-->
-
-<!--                    </div>-->
-<!--                </div>-->
-                <div class="blog-posts" >
-                    <div id="contents" >
+                <div class="blog-posts" th:fragment="article_type" id="contents_refresh">
+                    <div id="contents" class="row"  th:each="resource:${resources.records}">
+                        <div class="col-md-12">
+                            <div class="blog-post">
+                                <img src="img/blog_post_3.png" alt="">
+                                <div class="text-content">
+                                    <input type="hidden" id="page_totalnum" th:value="${resources.total}"/>
+                                    <span><a href="#" th:text="${resource.userId}"></a> /
+                                        <a href="#" th:text="${#dates.format(resource.createTime, 'yyyy-MM-dd HH:mm:ss')}"></a> /
+                                        <a href="#" th:text="${resource.type}"></a></span>
+                                    <h2 th:text="${resource.title}"></h2>
+                                    <p th:text="${resource.description}"></p>
+                                    <div class="simple-btn">
+                                       <a th:href="@{'../bizArticle/singlePost/'+${resource.id}}">继续阅读</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!--<div class="col-md-12">
                             <div class="blog-post">
                                 <img src="img/blog_post_1.png" alt="">
@@ -114,20 +82,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12">
-                            <div class="blog-post">
-                                <img src="img/blog_post_2.png" alt="">
-                                <div class="text-content">
-                                    <span><a href="#">Admin</a> / <a href="#">28 August 2018</a> / <a href="#">Lifestyle</a></span>
-                                    <h2>Integer scelerisque odio elit</h2>
-                                    <p>Aliquam erat volutpat. Donec condimentum ante nec sapien sodales, ut molestie mauris scelerisque. Maecenas in turpis sed odio pretium tempor. In libero tellus, maximus in accumsan id, posuere non urna.
-                                    <br><br>Fusce ex elit, congue vitae interdum et, sodales vitae purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque id egestas nibh. Curabitur convallis cursus pharetra. Curabitur non ligula id lacus pulvinar sollicitudin. Etiam quis tempus lectus, sed iaculis ex.</p>
-                                    <div class="simple-btn">
-                                        <a href="single-post.html">continue reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
+                     -->
 
                     </div>
                 </div>
@@ -157,38 +112,21 @@
                         </div>
                         <ul id="recentSixMonthTotal">
                             <li><a href="#">> 2018 September (4)</a></li>
-                            <!--<li><a href="#">> 2018 August (16)</a></li>
-                            <li><a href="#">> 2018 July (5)</a></li>
-                            <li><a href="#">> 2018 May (3)</a></li>
-                            <li><a href="#">> 2018 February (27)</a></li>
-                            <li><a href="#">> 2017 December (18)</a></li>
-                            <li><a href="#">> 2017 November (12)</a></li>-->
                         </ul>
                     </div>
                     <div class="recent-posts">
                         <div class="sidebar-heding">
                             <h2>Recent Posts</h2>
                         </div>
-                        <ul>
-                            <li><a href="single-post.html">
-                                <img src="img/recent_post_1.png" alt="Recent Post 1">
+                        <div id="recentPosts"></div>
+                        <ul  th:fragment="article_recentPosts" th:unless="not${recentPosts}">
+                            <li th:each="recentPost:${recentPosts.records}">
+                                <a th:href="@{'../bizArticle/singlePost/'+${recentPost.id}}" >
+<!--                                    <img th:src="@{recentPost.coverImage}" >-->
+                                    <img th:src="${recentPost.coverImage}"/>
                                 <div class="text">
-                                    <h6>Duis mollis orci</h6>
-                                    <span>15 September 2018</span>
-                                </div>
-                            </a></li>
-                            <li><a href="single-post.html">
-                                <img src="img/recent_post_2.png" alt="Recent Post 2">
-                                <div class="text">
-                                    <h6>Etiam quis tem</h6>
-                                    <span>10 August 2018</span>
-                                </div>
-                            </a></li>
-                            <li><a href="single-post.html">
-                                <img src="img/recent_post_3.png" alt="Recent Post 3">
-                                <div class="text">
-                                    <h6>Proin at augue</h6>
-                                    <span>16 July 2018</span>
+                                    <h6 th:text="${recentPost.title}">Duis mollis orci</h6>
+                                    <span th:text="${#dates.format(recentPost.createTime, 'yyyy-MM-dd HH:mm:ss')}">15 September 2018</span>
                                 </div>
                             </a></li>
                         </ul>
@@ -197,12 +135,11 @@
                         <div class="sidebar-heding">
                             <h2>Categories</h2>
                         </div>
-                        <ul>
-                            <li><a href="#">> Lifestyle (7)</a></li>
-                            <li><a href="#">> Branding (9)</a></li>
-                            <li><a href="#">> Nature (14)</a></li>
-                            <li><a href="#">> Work Stuff (6)</a></li>
-                            <li><a href="#">> Science (5)</a></li>
+                        <div id="groupAritcle"></div>
+                        <ul   th:fragment="article_groupAritcle" th:unless="not${groupAritcles}">
+                            <li  th:each="groupAritcle:${groupAritcles}">
+                                <a href="javascript:void(0)" th:text="${groupAritcle.name}+'('+${groupAritcle.count}+')'" th:onclick="quueryArticleGroup([[${groupAritcle.typeId}]])">> Lifestyle (7)</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="latest-gallery">
@@ -281,11 +218,10 @@
 
     <script>
         $(document).ready(function () {
-            // pageFunction()
-            // initRightArchives()
-            render()
+            renderPageItem();
             initRightArchives();
-
+            initLoadRecentPosts();
+            initLoadArticleGroup();
         });
         $("#footer-way").load("/public/footer.html")
         $(".overlay-menu").load("/public/catalog.html")
@@ -306,35 +242,61 @@
                 });
         }
         function quueryRightArchives(key){
-            // $('#contents_refresh').load("../bizArticle/queryRecentSixMonthCondition?date="+key);
-            render(1,key)
+            dateConditon = key
+            render(1)
         }
         /**
-         ** 页面总数
+         * 文章分组查询
          * */
-        /*function pageFunction(){
-            syncPost("../bizArticle/queryAriticesTotal","",function(data){
-                total = data.data;
-                renderPageItem();
-            })
-        }*/
+        function quueryArticleGroup(key){
+            // $('#contents_refresh').load("../bizArticle/queryRecentSixMonthCondition?date="+key);
+            typeId = key
+            render(1)
+        }
         /**
-         * 加载资源
+         * 最近文件
          * @param current
          */
-        function initLoadContent(current){
-            // render(current)
-            // $('#contents_refresh').load("../bizArticle/blogList/"+current);
+        function initLoadRecentPosts(){
+            $.ajax({
+                url: "../bizArticle/recentPosts",
+                type: 'POST',
+                contentType: 'application/json; charset=UTF-8',
+                success: function (data) {
+                    $("#recentPosts").html(data);
+                }
+            })
         }
 
-        var total = 0//数据总条数
-        pageNumber = 1,//当前页
+        /**
+         * 文章分组
+         * @param current
+         */
+        function initLoadArticleGroup(){
+            $.ajax({
+                url: "../bizArticle/queryAritcleGroupByType",
+                type: 'POST',
+                contentType: 'application/json; charset=UTF-8',
+                success: function (data) {
+                    $("#groupAritcle").html(data);
+                }
+            })
+        }
+
+        var total = "[[${resources.total}]]",//数据总条数
+            pageNumber = 1,//当前页
             pageSize = 3, //每页显示的条数
             edges = 2,//两侧显示的页码数 大于1
             playes = 5,//主页码区显示的页码数 大于3
-            pages = 0;//总页数
+            pages = 0,//总页数
+            dateConditon='',//全局的日期条件查询
+            typeId='';//文章分类
 
-        function render(current,date) {
+        /**
+         * 构建查询条件
+         * @param current
+         */
+        function createCondition(current){
             if(!current){
                 current = 1
             }
@@ -342,37 +304,64 @@
                 current:current,
                 size:3
             }
-            if(current){
-                param = {
-                    current:current,
-                    size:3,
-                    date:date
-                }
+            if(dateConditon){
+                param.date=dateConditon
+                param.typeId = ''
+                return param
             }
-            syncPost("../bizArticle/queryCondition",param,function(data){
-                var datas = data.data;
-                var $content = $("#contents");
-                $content.empty();
-                datas.records.forEach(function (info) {
-                    $content.append('<div class="col-md-12"> <div class="blog-post"> <img src="img/blog_post_1.png" alt=""><div class="text-content"> <span>'
-                        + '<a href="#">'+ info.userId+'</a> /'
-                        + '<a href="#">'+ info.createTime+'</a> / '
-                        + '<a href="#">'+info.type+'</a></span>'
-                        + '<h2>'+info.title+'</h2>'
-                        + '<p>'+info.description+'</p>'
-                        + '<div class="simple-btn"><a href="../bizArticle/singlePost/'+info.id +'">继续阅读</a></div>'
-                        + ' </div> </div> </div>');
-                });
-                total = datas.total
+            if(typeId){
+                param.typeId = typeId
+                param.date = ''
+                return param
+            }
+            return param
+        }
+        function render(current) {
+            var param = createCondition(current)
+           /* syncPost("../bizArticle/blogList",param,function(data){
+                $("#contents_refresh").html(data);
+                total =  $("#page_totalnum").val()
                 renderPageItem();
+            })*/
+            $.ajax({
+                url: "../bizArticle/blogList",
+                type: 'POST',
+                data: JSON.stringify(param),
+                contentType: 'application/json; charset=UTF-8',
+                success: function (data) {
+                    $("#contents_refresh").html(data);
+                    total =  $("#page_totalnum").val()
+                    renderPageItem();
+                    dateConditon='';
+                    typeId='';
+                }
             })
+
+            // syncPost("../bizArticle/queryCondition",param,function(data){
+            //     var datas = data.data;
+            //     var $content = $("#contents");
+            //     $content.empty();
+            //     datas.records.forEach(function (info) {
+            //         $content.append('<div class="col-md-12"> <div class="blog-post"> <img src="img/blog_post_1.png" alt=""><div class="text-content"> <span>'
+            //             + '<a href="#">'+ info.userId+'</a> /'
+            //             + '<a href="#">'+ info.createTime+'</a> / '
+            //             + '<a href="#">'+info.type+'</a></span>'
+            //             + '<h2>'+info.title+'</h2>'
+            //             + '<p>'+info.description+'</p>'
+            //             + '<div class="simple-btn"><a href="../bizArticle/singlePost/'+info.id +'">继续阅读</a></div>'
+            //             + ' </div> </div> </div>');
+            //     });
+            //     total = datas.total
+            //     renderPageItem();
+            // })
+
         }
 
         function renderPageItem() {
             $ul = $('<ul class="page-number"></ul>');
             var start = 1;
             pages = Math.ceil(total / pageSize)
-            if(total<=3){
+            if(total<=9){
                 playes = 1
                 edges=1
             }else{

@@ -38,4 +38,11 @@ public interface BizArticleService extends IService<BizArticle> {
      * @return
      */
     Map<String,Object> queryRecentSixMonthTotal();
+
+    /**
+     * 按照文章分组
+     * @param
+     * @return
+     */
+    List<Map<String,Object>> queryAritcleGroupByType();
 }
