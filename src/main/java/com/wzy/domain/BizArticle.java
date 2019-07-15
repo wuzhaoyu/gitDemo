@@ -32,8 +32,8 @@ public class BizArticle extends Model<BizArticle> {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+    @TableId(value = "id")
+    private String id;
     /**
      * 文章标题
      */
@@ -132,6 +132,28 @@ public class BizArticle extends Model<BizArticle> {
      */
     @TableField(exist = false)
     private String endDate;
+
+    /**
+     * 原文id
+     */
+    @TableField("source_id")
+    private Long sourceId;
+    /**
+     * 查看次数
+     */
+    private Long views;
+    /**
+     * 标签
+     */
+    private String tags;
+    /**
+     * 名称
+     */
+    private String nickname;
+    /**
+     * 头像
+     */
+    private String avatar;
 
     @Override
     protected Serializable pkVal() {

@@ -23,7 +23,7 @@ public interface BizArticleService extends IService<BizArticle> {
      * @param bizArticle
      * @return
      */
-    Page<BizArticle> queryCondition(Page<BizArticle> page, BizArticle bizArticle);
+    Page<BizArticle> queryCondition(Page page, BizArticle bizArticle);
 
     /**
      * 条件查询
@@ -45,4 +45,11 @@ public interface BizArticleService extends IService<BizArticle> {
      * @return
      */
     List<Map<String,Object>> queryAritcleGroupByType();
+
+    /**
+     * 查询详情
+     * @param bizArticle
+     * @return
+     */
+    BizArticle  querySingleBizArtcle(BizArticle bizArticle);
 }

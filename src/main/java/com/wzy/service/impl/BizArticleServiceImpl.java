@@ -1,6 +1,8 @@
 package com.wzy.service.impl;
 
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
+import com.baomidou.mybatisplus.plugins.pagination.Pagination;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 
 import com.wzy.common.BeanMapUtils;
@@ -9,6 +11,7 @@ import com.wzy.domain.BizArticle;
 import com.wzy.mapper.BizArticleMapper;
 import com.wzy.service.BizArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;
@@ -28,12 +31,13 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     @Autowired
     private BizArticleMapper mapper;
     @Override
-    public Page<BizArticle> queryCondition(Page<BizArticle> page, BizArticle bizArticle) {
+    public Page<BizArticle> queryCondition(Page page, BizArticle bizArticle) {
         List<BizArticle> bizArticles = mapper.queryCondition(page, bizArticle);
-        page.setRecords(bizArticles);
-        page.setTotal(mapper.queryCondition(bizArticle).size());
+       page.setRecords(bizArticles);
+//        page.setTotal(mapper.queryCondition(bizArticle).size());
         return page;
     }
+
 
     @Override
     public List<BizArticle> queryCondition(BizArticle bizArticle) {
@@ -41,6 +45,7 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     }
 
     @Override
+    @CacheEvict
     public Map<String, Object> queryRecentSixMonthTotal() {
         Map<String,Object> map  = new HashMap<>();
         Calendar calendar = Calendar.getInstance();
@@ -68,6 +73,11 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     @Override
     public List<Map<String, Object>> queryAritcleGroupByType() {
         return mapper.queryAritcleGroupByType();
+    }
+
+    @Override
+    public BizArticle querySingleBizArtcle(BizArticle bizArticle) {
+        return mapper.querySingleBizArtcle(bizArticle);
     }
 
 

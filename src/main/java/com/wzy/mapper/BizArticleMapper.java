@@ -34,6 +34,13 @@ public interface BizArticleMapper extends BaseMapper<BizArticle> {
     List<BizArticle> queryCondition(BizArticle bizArticle);
 
     /**
+     * 条件查询
+     * @param bizArticle
+     * @return
+     */
+    BizArticle querySingleBizArtcle(BizArticle bizArticle);
+
+    /**
      * 近六个月的文章统计
      * @return
      */

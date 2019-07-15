@@ -80,17 +80,7 @@ public class BizArticleController extends AbstractController {
             return ResultMsg.create(400, e.toString());
         }
     }
-    @PostMapping("/queryAriticesTotal")
-    @ResponseBody
-    public ResultMsg queryAriticesTotal() {
-        try {
-            BizArticle bizArticle = new BizArticle();
-            List<BizArticle> sysResources = bizArticleService.queryCondition(bizArticle);
-            return ResultMsg.success(sysResources.size());
-        } catch (Exception e) {
-            return ResultMsg.create(400, e.toString());
-        }
-    }
+
     @PostMapping("/blogList")
     public String blogPage(@RequestBody JSONObject param, Model model){
         try{
@@ -121,13 +111,13 @@ public class BizArticleController extends AbstractController {
      * @return
      */
     @RequestMapping("/singlePost/{tid}")
-    public ModelAndView singlePost(@PathVariable Integer tid){
+    public ModelAndView singlePost(@PathVariable String tid){
         ModelAndView modal = new ModelAndView();
         try{
             BizArticle bizArticle = new BizArticle();
-            bizArticle.setId(Long.parseLong(tid.toString()));
-            List<BizArticle> bizArticles = bizArticleService.queryCondition(bizArticle);
-            modal.addObject("detail",bizArticles.stream().findFirst().get());
+            bizArticle.setId(tid);
+            BizArticle bizArticles = bizArticleService.querySingleBizArtcle(bizArticle);
+            modal.addObject("detail",bizArticles);
             modal.setViewName("portal/single-post");
         }catch (Exception e){
             log.error(e.getMessage());

@@ -42,6 +42,10 @@ public class BizType extends Model<BizType> {
      */
     private String description;
     /**
+     * 类型介绍
+     */
+    private String key;
+    /**
      * 排序
      */
     private Integer sort;
