@@ -63,7 +63,7 @@
                                     <h2 th:text="${resource.title}"></h2>
                                     <p th:text="${resource.description}"></p>
                                     <div class="simple-btn">
-                                       <a th:href="@{'../bizArticle/singlePost/'+${resource.id}}">继续阅读</a>
+                                       <a th:href="@{'../bizArticle/singlePost/'+${resource.id}}" target="_blank">继续阅读</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                         <div id="recentPosts"></div>
                         <ul  th:fragment="article_recentPosts" th:unless="not${recentPosts}">
                             <li th:each="recentPost:${recentPosts.records}">
-                                <a th:href="@{'../bizArticle/singlePost/'+${recentPost.id}}" >
+                                <a th:href="@{'../bizArticle/singlePost/'+${recentPost.id}}" target="_blank">
 <!--                       <img th:src="@{recentPost.coverImage}" >-->
                                     <div class="row">
                                         <div class="col-md-3">
@@ -244,7 +244,7 @@
                     $.map(records,function (value,key) {
                         var param = key.replace("年","-").replace("月","-01")
                         var end = '"'+param+'"'
-                        $recentSixMonthTotal.append("<li><a href='javascript:void(0);' onclick='quueryRightArchives("+end+")'>>"+key+'('+value +')'+"</a></li>")
+                        $recentSixMonthTotal.append("<li><a href='javascript:void(0);' target='_blank' onclick='quueryRightArchives("+end+")'>>"+key+'('+value +')'+"</a></li>")
                     })
                 });
         }
@@ -339,8 +339,6 @@
                     $("#contents_refresh").html(data);
                     total =  $("#page_totalnum").val()
                     renderPageItem();
-                    dateConditon='';
-                    typeId='';
                 }
             })
 

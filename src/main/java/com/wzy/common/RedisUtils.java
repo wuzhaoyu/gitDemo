@@ -2,6 +2,7 @@ package com.wzy.common;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.CollectionUtils;
 
@@ -22,6 +23,7 @@ import java.util.concurrent.TimeUnit;
 public class RedisUtils {
 
     private static final Logger log = LoggerFactory.getLogger(RedisUtils.class);
+    @Autowired
     private RedisTemplate<Object, Object> redisTemplate;
 
     public RedisUtils() {

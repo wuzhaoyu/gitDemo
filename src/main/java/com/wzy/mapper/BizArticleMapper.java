@@ -1,7 +1,6 @@
 package com.wzy.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.plugins.pagination.Pagination;
 import com.wzy.domain.BizArticle;
 import org.apache.ibatis.annotations.Param;
@@ -25,6 +24,13 @@ public interface BizArticleMapper extends BaseMapper<BizArticle> {
      * @return
      */
     List<BizArticle> queryCondition(Pagination page, BizArticle bizArticle);
+
+
+    /**
+     * @Author wzy
+     * @Description 获取总数
+     **/
+    Long queryTotalByCondition(BizArticle bizArticle);
 
     /**
      * 条件查询

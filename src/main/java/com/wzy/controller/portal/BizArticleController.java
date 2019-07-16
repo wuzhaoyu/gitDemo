@@ -111,7 +111,7 @@ public class BizArticleController extends AbstractController {
      * @return
      */
     @RequestMapping("/singlePost/{tid}")
-    public ModelAndView singlePost(@PathVariable String tid){
+    public ModelAndView singlePost(@PathVariable Long tid){
         ModelAndView modal = new ModelAndView();
         try{
             BizArticle bizArticle = new BizArticle();
@@ -196,6 +196,7 @@ public class BizArticleController extends AbstractController {
         }
         return "portal/blog::article_groupAritcle";
     }
+
     public static BizArticle createCondition(BizArticle bizArticle,String date){
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         Calendar calendar = Calendar.getInstance();

@@ -12,8 +12,10 @@ import com.wzy.mapper.BizArticleMapper;
 import com.wzy.service.BizArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -32,9 +34,11 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     private BizArticleMapper mapper;
     @Override
     public Page<BizArticle> queryCondition(Page page, BizArticle bizArticle) {
-        List<BizArticle> bizArticles = mapper.queryCondition(page, bizArticle);
-       page.setRecords(bizArticles);
-//        page.setTotal(mapper.queryCondition(bizArticle).size());
+//        List<BizArticle> bizArticles = mapper.queryCondition(page, bizArticle);
+        bizArticle.setOffset(page.getOffset()).setSize( page.getLimit());
+        List<BizArticle> bizArticles1 = mapper.queryCondition(bizArticle);
+        page.setRecords(bizArticles1);
+        page.setTotal(mapper.queryTotalByCondition(bizArticle));
         return page;
     }
 
@@ -45,7 +49,6 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     }
 
     @Override
-    @CacheEvict
     public Map<String, Object> queryRecentSixMonthTotal() {
         Map<String,Object> map  = new HashMap<>();
         Calendar calendar = Calendar.getInstance();
@@ -71,11 +74,24 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     }
 
     @Override
+    @Cacheable(value = "aritcleGroup")
     public List<Map<String, Object>> queryAritcleGroupByType() {
-        return mapper.queryAritcleGroupByType();
+        List<Map<String, Object>> maps = mapper.queryAritcleGroupByType();
+        Map<String,Object> map = new HashMap<>();
+        BigDecimal total = new BigDecimal(0);
+        for(Map<String,Object> var : maps){
+            total=  total.add(new BigDecimal(Integer.parseInt(String.valueOf(var.get("count")))));
+        }
+        //作统计计算，在sql中union 查询较慢
+        map.put("name","全部");
+        map.put("typeId","");
+        map.put("count",total);
+        maps.add(map);
+        return maps;
     }
 
     @Override
+    @Cacheable(value = "bizArticles", key ="'querySingleBizArtcle:' + #p0.id")
     public BizArticle querySingleBizArtcle(BizArticle bizArticle) {
         return mapper.querySingleBizArtcle(bizArticle);
     }
