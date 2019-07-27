@@ -154,6 +154,15 @@ public class BizArticle extends Model<BizArticle> {
      * 头像
      */
     private String avatar;
+    /**
+     * 策略
+     */
+    private String strategy;
+    /**
+     * 子标题
+     */
+    @TableField("sub_title")
+    private String subTitle;
 
     /**
      * 偏移量

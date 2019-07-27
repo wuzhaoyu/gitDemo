@@ -42,7 +42,7 @@ public class BizType extends Model<BizType> {
      */
     private String description;
     /**
-     * 类型介绍
+     * 类型key
      */
     private String key;
     /**
