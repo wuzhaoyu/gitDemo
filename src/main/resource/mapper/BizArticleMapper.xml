@@ -33,6 +33,9 @@
     <sql id="Base_Column_List">
         id, title, user_id, cover_image, qrcode_path, is_markdown, content, content_md, top, type_id, status, recommended, original, description, keywords, comment, create_time, update_time, source_id, views, tags, nickname, avatar
     </sql>
+    <update id="updateViews">
+        update biz_article set views = views + 1 where id = #{id}
+    </update>
 
     <select id="queryCondition" resultType="com.wzy.domain.BizArticle">
         SELECT
@@ -54,10 +57,9 @@
         inner join (SELECT le.id from biz_article le where
         1=1
         <include refid="conditon"></include>
+        ORDER BY le.create_time desc
         LIMIT #{offset},#{size} ) as le1
-        on cle.id = le1.id
-        ORDER BY
-        cle.create_time desc;
+        on cle.id = le1.id;
     </select>
     <select id="queryRecentSixMonthTotal" resultType="java.lang.Long">
             SELECT

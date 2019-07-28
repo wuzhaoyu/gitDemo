@@ -31,7 +31,7 @@
 
     <nav>
         <div class="logo">
-            <a href="index.html">Gala<em>xy</em></a>
+            <a href="index.html">ON THE WAY<!--<em>xy</em>--></a>
         </div>
       <div class="menu-icon">
         <span></span>
@@ -256,7 +256,6 @@
          * 文章分组查询
          * */
         function quueryArticleGroup(key){
-            // $('#contents_refresh').load("../bizArticle/queryRecentSixMonthCondition?date="+key);
             typeId = key
             render(1)
         }
@@ -292,7 +291,7 @@
 
         var total = "[[${resources.total}]]",//数据总条数
             pageNumber = 1,//当前页
-            pageSize = 3, //每页显示的条数
+            pageSize = 4, //每页显示的条数
             edges = 2,//两侧显示的页码数 大于1
             playes = 5,//主页码区显示的页码数 大于3
             pages = 0,//总页数
@@ -309,7 +308,7 @@
             }
             var param = {
                 current:current,
-                size:3
+                size:4
             }
             if(dateConditon){
                 param.date=dateConditon
@@ -366,7 +365,7 @@
             $ul = $('<ul class="page-number"></ul>');
             var start = 1;
             pages = Math.ceil(total / pageSize)
-            if(total<=9){
+            if(total<=12){
                 playes = 1
                 edges=1
             }else{

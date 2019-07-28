@@ -57,7 +57,7 @@ public class PortalController {
         ModelAndView modal = new ModelAndView();
         try{
             BizArticle bizArticle = new BizArticle();
-            Page<BizArticle> page = new Page<>(1, 3);
+            Page<BizArticle> page = new Page<>(1, 4);
             Page<BizArticle> sysResources = bizArticleService.queryCondition(page,bizArticle);
             modal.addObject("resources",sysResources);
             modal.setViewName("portal/blog");

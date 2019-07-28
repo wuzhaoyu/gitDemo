@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
@@ -74,7 +75,7 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     }
 
     @Override
-    @Cacheable(value = "aritcleGroup")
+//    @Cacheable(value = "aritcleGroup")
     public List<Map<String, Object>> queryAritcleGroupByType() {
         List<Map<String, Object>> maps = mapper.queryAritcleGroupByType();
         Map<String,Object> map = new HashMap<>();
@@ -91,9 +92,17 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
     }
 
     @Override
-    @Cacheable(value = "bizArticles", key ="'querySingleBizArtcle:' + #p0.id")
+//    @Cacheable(value = "bizArticles", key ="'querySingleBizArtcle:' + #p0.id")
     public BizArticle querySingleBizArtcle(BizArticle bizArticle) {
+        //更新浏览量
+        this.updateViews(bizArticle.getId());
         return mapper.querySingleBizArtcle(bizArticle);
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public int updateViews(Long id) {
+        return mapper.updateViews(id);
     }
 
 

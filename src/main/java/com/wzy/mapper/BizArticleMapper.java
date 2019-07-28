@@ -58,4 +58,11 @@ public interface BizArticleMapper extends BaseMapper<BizArticle> {
      * @return
      */
     List<Map<String,Object>> queryAritcleGroupByType();
+
+    /**
+     * 更新浏览量
+     * @param id
+     * @return
+     */
+    int updateViews(@Param("id") Long id);
 }

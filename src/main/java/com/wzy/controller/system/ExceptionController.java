@@ -16,19 +16,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ExceptionController {
 
     @RequestMapping("/show2")
-    public String showInfo2(){
-
-        int a = 10/0;
-        return"index";
+    public String showInfo2() {
+        int a = 10 / 0;
+        return "index";
     }
+
     @RequestMapping("/500")
-    public String exception(){
-
-        return"thyemleaf/error";
+    public String exception() {
+        return "thyemleaf/error";
     }
-    @RequestMapping("/404")
-    public String notFound(){
 
-        return"/404";
+    @RequestMapping("/404")
+    public String notFound() {
+
+        return "/404";
     }
 }

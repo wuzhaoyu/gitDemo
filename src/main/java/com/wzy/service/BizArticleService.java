@@ -52,4 +52,10 @@ public interface BizArticleService extends IService<BizArticle> {
      * @return
      */
     BizArticle  querySingleBizArtcle(BizArticle bizArticle);
+    /**
+     * 更新浏览量
+     * @param id
+     * @return
+     */
+    int updateViews(Long id);
 }

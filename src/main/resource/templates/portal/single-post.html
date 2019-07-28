@@ -24,14 +24,21 @@
        <link type="text/css" rel="stylesheet" href="../../static/editor/lib/codemirror/addon/search/matchesonscrollbar.css">
        <link type="text/css" rel="stylesheet" href="../../static/editor/lib/codemirror/addon/fold/foldgutter.css">
        <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">-->
+
     <script src="../../static/portal/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-
+<style type="text/css">
+    .icon-style{
+        width:22px;
+        height:25px;
+        padding-bottom: 3px
+    }
+</style>
 <body>
 
 <nav>
     <div class="logo">
-        <a href="index.html">Gala<em>xy</em></a>
+        <a href="index.html">ON THE WAY<!--<em>xy</em>--></a>
     </div>
     <div class="menu-icon">
         <span></span>
@@ -109,8 +116,12 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <ul class="tags" style="float: left">
-                                            <li>Tags:</li>
-                                            <li><a href="#" th:text="${detail.tags}"></a>
+                                            <li><img src="../../static/portal/img/tags.png" style="width:22px;height:25px;padding-bottom: 3px">&nbsp;:&emsp;</li>
+                                            <li style="margin-right: 10px"><a href="#" th:text="${detail.tags}"></a></li>
+                                            <li><img src="../../static/portal/img/views.png" style="width:22px;height:25px;padding-bottom: 3px">&nbsp;:&emsp;</li>
+                                            <li style="margin-right: 10px"><a href="#" th:text="${detail.views}"></a></li>
+                                            <li><img src="../../static/portal/img/talk.png" style="width:22px;height:25px;padding-bottom: 3px">&nbsp;:&emsp;</li>
+                                            <li><a href="#" >0</a>
                                         </ul>
                                     </div>
                                     <!--<div class="col-md-6">

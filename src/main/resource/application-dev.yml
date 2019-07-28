@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/ontheway?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
     username: root
-    password: root
+    password:
     type: com.alibaba.druid.pool.DruidDataSource
   redis:
     # Redis数据库索引（默认为0）

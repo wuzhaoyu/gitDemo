@@ -156,7 +156,7 @@ public class BizArticleController extends AbstractController {
             String endDate = format.format(calendar.getTime());
             BizArticle bizArticle = new BizArticle();
             bizArticle.setStartDate(startDate).setEndDate(endDate);
-            Page<BizArticle> page = new Page<>(1, 3);
+            Page<BizArticle> page = new Page<>(1, 4);
             Page<BizArticle> sysResources =  bizArticleService.queryCondition( page,bizArticle);
             model.addAttribute("resources",sysResources);
         }catch (Exception e){
@@ -173,7 +173,7 @@ public class BizArticleController extends AbstractController {
     @PostMapping("/recentPosts")
     public String recentPosts(Model model) {
         try{
-            Page<BizArticle> page = new Page<>(1, 3);
+            Page<BizArticle> page = new Page<>(1, 4);
             Page<BizArticle> sysResources =  bizArticleService.queryCondition( page,new BizArticle() );
             model.addAttribute("recentPosts",sysResources);
         }catch (Exception e){
@@ -212,5 +212,6 @@ public class BizArticleController extends AbstractController {
         bizArticle.setStartDate(startDate).setEndDate(endDate);
         return bizArticle;
     }
+
 }
 

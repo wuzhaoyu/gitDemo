@@ -6,6 +6,7 @@ import com.wzy.servlet.SecondServlet;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
 import org.springframework.boot.web.servlet.*;
 import org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory;
@@ -40,6 +41,8 @@ public class SystemApplication {
     public static final String ROOTPAth = "F:\\googledownload\\SpringBoot01\\src\\main\\webapp";
 
     public static void main(String[] args){
+        //禁用热部署方法
+        System.setProperty("spring.devtools.restart.enabled","false");
         SpringApplication.run(SystemApplication.class,args);
     }
 
