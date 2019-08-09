@@ -106,4 +106,14 @@ public class PortalController {
         }
         return modal;
     }
+
+    @RequestMapping("/search")
+    public ModelAndView searchPage(ModelAndView modal){
+        try{
+            modal.setViewName("portal/search_blog");
+        }catch (Exception e){
+            log.error(e.getMessage());
+        }
+        return modal;
+    }
 }

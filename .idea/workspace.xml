@@ -1,30 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/resource/application.yml" line="16" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" line="294" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" line="313" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cce73c90-221c-41a9-9284-e8b1f0f52159" name="Default" comment="配置">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_solr_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_4_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/static/portal/img/basketball-ring.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringBoot01_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringBoot01_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnTheWay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnTheWay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/application-produce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application-produce.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/static/portal/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/static/portal/css/templatemo-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/BeanFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wzy/SystemApplication.class" afterDir="false" />
     </list>
-    <list id="f4cede8f-5321-43b1-9878-9c04e8e3ddb6" name="DontCare" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnTheWay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnTheWay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
-    </list>
+    <list id="f4cede8f-5321-43b1-9878-9c04e8e3ddb6" name="DontCare" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +61,23 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -41,10 +87,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="2310">
+              <caret line="105" column="41" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="271" column="90" lean-forward="true" selection-start-line="271" selection-start-column="90" selection-end-line="271" selection-end-column="90" />
+              <folding>
+                <element signature="method#search#0;class#SolrController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/springReporsitory/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3432">
+              <caret line="189" column="25" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3124">
+              <caret line="183" column="95" selection-start-line="183" selection-start-column="95" selection-end-line="183" selection-end-column="95" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -53,26 +142,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="125" column="74" selection-start-line="125" selection-start-column="74" selection-end-line="125" selection-end-column="74" />
+            <state relative-caret-position="5808">
+              <caret line="306" column="90" selection-start-line="306" selection-start-column="71" selection-end-line="306" selection-end-column="90" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#16#23#1" expanded="true" />
-                <element signature="e#16#23#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="42" column="74" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1958">
+              <caret line="112" column="49" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -80,45 +169,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="255" column="115" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="115" />
+            <state relative-caret-position="9966">
+              <caret line="453" column="61" selection-start-line="453" selection-start-column="61" selection-end-line="453" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2309#2310#0" expanded="true" />
-                <element signature="e#2361#2362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-615">
-              <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
-              <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="4246">
+              <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -131,44 +192,46 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contents</find>
-      <find>pageNumber</find>
-      <find>total</find>
-      <find>pages</find>
-      <find>renderPageItem</find>
-      <find>right_meun</find>
-      <find>page-number</find>
-      <find>pageContain</find>
-      <find>onPageClicked</find>
-      <find>render</find>
-      <find>initLoadContent</find>
-      <find>singlePost</find>
-      <find>playes</find>
-      <find>detailContent</find>
-      <find>context</find>
-      <find>ge</find>
-      <find>blog1</find>
-      <find>contents_refresh</find>
-      <find>article_type</find>
-      <find>resources.records</find>
-      <find>resources</find>
       <find>initLoadRecentPosts</find>
-      <find>blogList</find>
       <find>recentSixMonthTotal</find>
       <find>groupAritcles</find>
       <find>quueryArticleGroup</find>
-      <find>groupAritcle</find>
       <find>page_totalnum</find>
       <find>recentPosts</find>
       <find>deb</find>
+      <find>queryCondition</find>
+      <find>querySingleBizArtcle</find>
+      <find>groupAritcle</find>
+      <find>total</find>
+      <find>durid</find>
+      <find>permission.ignore</find>
+      <find>alibaba</find>
+      <find>queryAritcleGroupByType</find>
+      <find>more-about-us</find>
+      <find>typeId</find>
+      <find>singlePost</find>
+      <find>blogList</find>
+      <find>pageSize</find>
+      <find>M</find>
+      <find>logback</find>
+      <find>qos</find>
+      <find>orm-control-feedback</find>
+      <find>render</find>
+      <find>solrTemplate</find>
+      <find>.blog-post .text-content span</find>
+      <find>dateConditon</find>
+      <find>quueryRightArchives</find>
+      <find>contents_refresh</find>
     </findStrings>
     <replaceStrings>
       <replace>../../static/assets</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -177,57 +240,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleLookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleTagsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizCommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizFileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizTagsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/SysConfigServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/SysLinkServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/SysLogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/SysNoticeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/SysTemplateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/SysConfigController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/SysTemplateController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleLookController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleLoveController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleTagsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizCommentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizFileController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizTagsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizTypeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/SysLinkController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/SysLogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/SysNoticeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/MysqlGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/DateConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/CustomJsonDateConverter.java" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/footer.html" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/public/footer.html" />
-        <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/AbstractController.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/public/catalog.html" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/BeanFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/DateFormatConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/HttpClientUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/DateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/DateTransUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/BeanMapUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/public/right.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" />
         <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/BeanFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/static/portal/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/common/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/public/catalog.html" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/domain/vo/BizArticleVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/domain/BizType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/aop/PermissionAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mode/Observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mode/Observer/OctalObserver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mode/Observer/ObserverPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mode/Observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mode/Observer/BinaryObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/ExceptionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/CoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/about.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resource/application-produce.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/static/portal/css/templatemo-style.css" />
+        <option value="$PROJECT_DIR$/src/main/resource/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java" />
       </list>
     </option>
   </component>
@@ -243,23 +306,27 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="On The Way" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="On The Way" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="On The Way" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -280,6 +347,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,7 +388,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
@@ -330,6 +398,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wzy" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wzy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="FileUpload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
@@ -340,6 +418,16 @@
               <item name="wzy" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wzy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
@@ -356,51 +444,7 @@
               <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
@@ -418,114 +462,20 @@
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-support:2.3" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-support:2.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-plus-support-2.3.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-support:2.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-plus-support-2.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-support:2.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-plus-support-2.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisplus" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ontheway" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -536,36 +486,36 @@
     <property name="SearchEverywhereHistoryKey" value="SpringBootBan&#9;PSI&#9;JAVA://org.springframework.boot.SpringBootBanner&#10;JobFac&#9;PSI&#9;JAVA://org.quartz.spi.JobFactory&#10;initExceptionHandlerAdviceCache&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#initExceptionHandlerAdviceCache&#10;addResourceHandlers&#9;ACTION&#9;null&#10;addErrorPages&#9;PSI&#9;JAVA://org.springframework.boot.web.server.ErrorPageRegistry#addErrorPages&#10;EmbeddedServletContainer&#9;PSI&#9;JAVA://com.wzy.config.TomcatConfig#embeddedServletContainerFactory&#10;containerCustomizer&#9;PSI&#9;JAVA://com.wzy.SystemApplication#containerCustomizer&#10;ErrorMvcAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration&#10;BasicErrorController&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resource/static/portal/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resource/templates/portal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47157434" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\OnTheWay\src\main\resource" />
       <recent name="G:\OnTheWay\src\main\resource\templates\portal\public" />
       <recent name="G:\OnTheWay\src\main\resource\static" />
       <recent name="G:\SpringBoot02\src\main\java\com\wzy\mapper\system" />
       <recent name="G:\SpringBoot02\src\main\resource\static\portal\video" />
-      <recent name="G:\SpringBoot02\src\main\resource\static\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wzy.common" />
-      <recent name="com.wzy" />
-      <recent name="com.wzy.controller.portal" />
       <recent name="com.wzy.controller.system" />
-      <recent name="com.wzy.mapper.system" />
+      <recent name="com.mode.Observer" />
+      <recent name="com.wzy.domain.vo" />
+      <recent name="com.wzy.domain" />
+      <recent name="com.wzy.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\OnTheWay\src\main\resource\templates\portal" />
+      <recent name="G:\OnTheWay\src\main\resource\static\portal\img" />
+      <recent name="G:\OnTheWay\src\main\resource" />
       <recent name="G:\OnTheWay\src\main\resource\static\portal\js" />
       <recent name="G:\OnTheWay\src\main\resource\static\portal\css" />
-      <recent name="G:\OnTheWay\src\main\java\com\wzy\common" />
-      <recent name="G:\OnTheWay\src\main\java\com\wzy\controller\portal" />
-      <recent name="G:\OnTheWay\src\main\java\com\wzy\service\impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -580,48 +530,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateTest">
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassLoadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzy.ClassLoadTest" />
+    <configuration name="ObserverPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mode.Observer.ObserverPatternDemo" />
       <module name="OnTheWay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzy.DateTest" />
-      <module name="OnTheWay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wzy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TCPNioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.http.tcp.NIO.TCPNioClient" />
-      <module name="OnTheWay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.http.tcp.NIO.*" />
+          <option name="PATTERN" value="com.mode.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -690,6 +611,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzy.SystemApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -717,20 +639,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TCPNioClient" />
       <item itemvalue="Application.TestDemo" />
-      <item itemvalue="Application.DateTest" />
-      <item itemvalue="Application.ClassLoadTest" />
+      <item itemvalue="Application.ObserverPatternDemo" />
       <item itemvalue="Maven.maven" />
       <item itemvalue="Spring Boot.SystemApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DateTest" />
         <item itemvalue="Spring Boot.SystemApplication" />
-        <item itemvalue="Application.ClassLoadTest" />
+        <item itemvalue="Application.ObserverPatternDemo" />
         <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.TCPNioClient" />
       </list>
     </recent_temporary>
   </component>
@@ -781,6 +699,26 @@
       <workItem from="1562290857997" duration="17699000" />
       <workItem from="1562392440107" duration="53833000" />
       <workItem from="1562589231427" duration="24099000" />
+      <workItem from="1562721960595" duration="22991000" />
+      <workItem from="1563156938388" duration="17322000" />
+      <workItem from="1563258013953" duration="10507000" />
+      <workItem from="1563520067166" duration="6494000" />
+      <workItem from="1563630828060" duration="5723000" />
+      <workItem from="1563671427990" duration="984000" />
+      <workItem from="1563672444542" duration="3388000" />
+      <workItem from="1563796909755" duration="3313000" />
+      <workItem from="1563881747264" duration="2339000" />
+      <workItem from="1563967332408" duration="3954000" />
+      <workItem from="1564055762200" duration="3781000" />
+      <workItem from="1564126176646" duration="24037000" />
+      <workItem from="1564390264579" duration="6561000" />
+      <workItem from="1564475306537" duration="10687000" />
+      <workItem from="1564565319483" duration="9614000" />
+      <workItem from="1564641866989" duration="7529000" />
+      <workItem from="1564751660487" duration="6739000" />
+      <workItem from="1565090671688" duration="2699000" />
+      <workItem from="1565265741135" duration="1843000" />
+      <workItem from="1565311913449" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="admin管理页面">
       <created>1551358583185</created>
@@ -936,17 +874,60 @@
       <option name="project" value="LOCAL" />
       <updated>1562584541038</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="数据展示方式">
+      <created>1562722033211</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562722033211</updated>
+    </task>
+    <task id="LOCAL-00024" summary="配置">
+      <created>1563151671555</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563151671555</updated>
+    </task>
+    <task id="LOCAL-00025" summary="优化分页查询">
+      <created>1563280788046</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563280788046</updated>
+    </task>
+    <task id="LOCAL-00026" summary="配置">
+      <created>1564189212356</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1564189212356</updated>
+    </task>
+    <task id="LOCAL-00027" summary="about-us 分页修改为4，去除redis缓存">
+      <created>1564326405130</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564326405130</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359035000" />
+    <option name="totallyTimeSpent" value="510763000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22922252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -956,22 +937,23 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.15220484" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29587483" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953146" weight="0.4125178" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22759601" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953146" weight="0.44381222" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32951945" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" weight="0.24324325" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.32951945" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32859176" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" weight="0.18776672" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5046854" side_tool="true" weight="0.81134754" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.409611" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.27453768" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2119488" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2631579" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32859176" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49732262" weight="0.2290185" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49732262" visible="true" weight="0.44381222" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="bottom" id="Problems" order="18" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -979,11 +961,11 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.26770386" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.26541555" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.16823056" />
       <window_info anchor="right" id="Module Dependencies" order="12" weight="0.3297587" />
     </layout>
   </component>
@@ -1039,18 +1021,15 @@
     <MESSAGE value=" 全局日期格式化" />
     <MESSAGE value="文件整理" />
     <MESSAGE value="blog" />
+    <MESSAGE value="数据展示方式" />
+    <MESSAGE value="优化分页查询" />
     <MESSAGE value="配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置" />
+    <MESSAGE value="about-us 分页修改为4，去除redis缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="about-us 分页修改为4，去除redis缓存" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/wzy/controller/FileUpload/uploadContrller.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/DaytimeUDPClient.java</url>
           <line>31</line>
@@ -1062,6 +1041,26 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>page</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>groupAritcles</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mapper.queryCondition(page, bizArticle);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>sysResources</expression-string>
         <language-id>JAVA</language-id>
@@ -1078,11 +1077,6 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>groupAritcles</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>mapper.queryCondition(bizArticle).size()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -1092,359 +1086,192 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
       <expression>
-        <expression-string>map</expression-string>
+        <expression-string>highlight.get(document.getFieldValue(&quot;id&quot;)).size()&gt;0</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>bizArticles</expression-string>
+        <expression-string>highlight</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sysResources.getRecords()</expression-string>
+        <expression-string>highlight.get(document.getFieldValue(&quot;id&quot;))</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>highlight.get(document.getFieldValue(&quot;id&quot;)).get(&quot;description&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>highlight.get(document.getFieldValue(&quot;id&quot;)).get(&quot;title&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>document.getFieldValue(&quot;id&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>results</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="75" column="194" selection-start-line="75" selection-start-column="194" selection-end-line="75" selection-end-column="194" />
+        <state relative-caret-position="242">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/BeanFactoryTest.java">
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="396">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/data/spring-data-keyvalue/2.1.3.RELEASE/spring-data-keyvalue-2.1.3.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/domain/BizType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/aop/PermissionAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="301" column="25" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
+          <folding>
+            <element signature="e#10902#10903#0" expanded="true" />
+            <element signature="e#10948#10949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/Observer/BinaryObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/FileUpload/uploadContrller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/MysqlGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="192">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SysContentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/ExceptionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="197" selection-start-line="35" selection-start-column="197" selection-end-line="35" selection-end-column="197" />
+        <state relative-caret-position="332">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/DefinErrorConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/AbstractController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="96" lean-forward="true" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
+        <state relative-caret-position="192">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/SimpleGlobalException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/CoreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/DateFormatConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="-68">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/config/WebMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/thyemleaf/error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/editor/examples/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="175" column="19" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/img/contact-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/img/heading_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/util/BuddhistCalendar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="2797" column="25" selection-start-line="2797" selection-start-column="25" selection-end-line="2797" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/DateTransUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6278#6286#0" expanded="true" />
-            <element signature="e#7904#7912#0" expanded="true" />
-            <element signature="e#9265#9273#0" expanded="true" />
-            <element signature="e#10380#10389#0" expanded="true" />
-            <element signature="e#11363#11379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/common/BeanMapUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="e#1738#1754#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/public/right.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="120" selection-start-line="10" selection-start-column="10" selection-end-line="11" selection-end-column="120" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="2221" column="18" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/css/qunit-1.11.0.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/qunit-1.11.0.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/bootstrap-paginator.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/domain/BizArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar!/org/assertj/core/api/AbstractAssert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-test/2.1.1.RELEASE/spring-boot-test-2.1.1.RELEASE.jar!/org/springframework/boot/test/context/assertj/ApplicationContextAssert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JIGSAW/spring.beans">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JIGSAW</ID>
-          <OriginalElement>spring.beans</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">spring.beans</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-277.0" y="-69.0" />
-          <SelectedNodes>
-            <node>spring.beans</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/Lifecycle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/LifecycleProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/support/DefaultLifecycleProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="154" column="13" lean-forward="true" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/context/support/GenericWebApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-          <folding>
-            <element signature="e#2097#2098#0" expanded="true" />
-            <element signature="e#2139#2140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="87" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/context/support/WebApplicationContextUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="177" column="52" lean-forward="true" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/plugins/Page.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/public/footer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/public/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/view/ThymeleafView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/static/js/common/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="94" column="55" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="255" column="115" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="115" />
+        <state relative-caret-position="75">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="418">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1452,64 +1279,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/Observer/ObserverPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE-sources.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4178">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/Observer/OctalObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/Observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/Observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2309#2310#0" expanded="true" />
-            <element signature="e#2361#2362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/SystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleLookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application-produce.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="1034">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="2540" column="1" selection-start-line="2540" selection-start-column="1" selection-end-line="2540" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/apache/solr/solr-solrj/7.4.0/solr-solrj-7.4.0.jar!/org/apache/solr/client/solrj/SolrQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14806">
+          <caret line="768" column="43" selection-start-line="768" selection-start-column="43" selection-end-line="768" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/data/spring-data-solr/4.0.3.RELEASE/spring-data-solr-4.0.3.RELEASE.jar!/org/springframework/data/solr/core/SolrOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/springframework/data/spring-data-solr/4.0.3.RELEASE/spring-data-solr-4.0.3.RELEASE.jar!/org/springframework/data/solr/core/SolrTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="2662">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/css/templatemo-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21494">
+          <caret line="977" column="1" selection-start-line="977" selection-start-column="1" selection-end-line="977" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="2310">
+          <caret line="105" column="41" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3432">
+          <caret line="189" column="25" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3124">
+          <caret line="183" column="95" selection-start-line="183" selection-start-column="95" selection-end-line="183" selection-end-column="95" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="125" column="74" selection-start-line="125" selection-start-column="74" selection-end-line="125" selection-end-column="74" />
+        <state relative-caret-position="5808">
+          <caret line="306" column="90" selection-start-line="306" selection-start-column="71" selection-end-line="306" selection-end-column="90" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#16#23#1" expanded="true" />
-            <element signature="e#16#23#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="42" column="74" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="74" />
+        <state relative-caret-position="1958">
+          <caret line="112" column="49" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9966">
+          <caret line="453" column="61" selection-start-line="453" selection-start-column="61" selection-end-line="453" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4246">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="271" column="90" lean-forward="true" selection-start-line="271" selection-start-column="90" selection-end-line="271" selection-end-column="90" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#search#0;class#SolrController#0" />
           </folding>
         </state>
       </provider>
@@ -1520,11 +1524,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SpringBoot01:war</last-edited>
+          <last-edited>OnTheWay:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.47157434" />
+                <option value="0.23839854" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1532,7 +1537,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (SpringBoot01)|Web</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1567,7 +1572,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringBoot01</last-edited>
+          <last-edited>OnTheWay</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

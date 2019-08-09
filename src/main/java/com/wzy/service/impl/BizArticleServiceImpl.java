@@ -7,9 +7,12 @@ import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 
 import com.wzy.common.BeanMapUtils;
 import com.wzy.common.DateUtils;
+import com.wzy.common.RedisUtils;
 import com.wzy.domain.BizArticle;
 import com.wzy.mapper.BizArticleMapper;
 import com.wzy.service.BizArticleService;
+import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -29,17 +32,25 @@ import java.util.*;
  * @since 2019-07-04
  */
 @Service
+@Slf4j
 public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArticle> implements BizArticleService {
 
     @Autowired
     private BizArticleMapper mapper;
+
+    @Autowired
+    private RedisUtils redisUtils;
     @Override
     public Page<BizArticle> queryCondition(Page page, BizArticle bizArticle) {
-//        List<BizArticle> bizArticles = mapper.queryCondition(page, bizArticle);
-        bizArticle.setOffset(page.getOffset()).setSize( page.getLimit());
-        List<BizArticle> bizArticles1 = mapper.queryCondition(bizArticle);
-        page.setRecords(bizArticles1);
-        page.setTotal(mapper.queryTotalByCondition(bizArticle));
+        try {
+            bizArticle.setOffset(page.getOffset()).setSize( page.getLimit());
+            List<BizArticle> bizArticles1 = mapper.queryCondition(bizArticle);
+            page.setRecords(bizArticles1);
+            page.setTotal(mapper.queryTotalByCondition(bizArticle));
+        } catch (Exception e) {
+            log.error("文章查询失败："+e.getMessage());
+            e.printStackTrace();
+        }
         return page;
     }
 
@@ -87,16 +98,28 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
         map.put("name","全部");
         map.put("typeId","");
         map.put("count",total);
-        maps.add(map);
+//        maps.add(map);
+        maps.add(0,map);
         return maps;
     }
 
     @Override
 //    @Cacheable(value = "bizArticles", key ="'querySingleBizArtcle:' + #p0.id")
     public BizArticle querySingleBizArtcle(BizArticle bizArticle) {
+        BizArticle bizArticle1 = new BizArticle();
+        String key = "bizArticle:" + bizArticle.getId();
         //更新浏览量
         this.updateViews(bizArticle.getId());
-        return mapper.querySingleBizArtcle(bizArticle);
+        if(Objects.nonNull(redisUtils.get(key))){
+            String content   =  redisUtils.get(key).toString();
+            bizArticle1 = mapper.querySingleBizArtcleIgnoreContent(bizArticle);
+            bizArticle1.setContent(content);
+        }else{
+            bizArticle1 = mapper.querySingleBizArtcle(bizArticle);
+            redisUtils.set("bizArticle:"+bizArticle.getId(),bizArticle1.getContent());
+        }
+
+        return bizArticle1;
     }
 
     @Override

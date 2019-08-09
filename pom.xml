@@ -36,7 +36,19 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
       <version>2.1.1.RELEASE</version>
+        <exclusions> <!--去除之前对老版本log4j的依赖-->
+            <exclusion>
+                <artifactId>org.springframework.boot</artifactId>
+                <groupId>spring.boot.starter-logging</groupId>
+            </exclusion>
+
+        </exclusions>
     </dependency>
+      <!--添加对日志系统的支持，采用最新的log4j2框架-->
+      <!--<dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-log4j2</artifactId>
+      </dependency>-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
@@ -83,11 +95,11 @@
     </dependency>
 
     <!-- 数据库连接池 -->
-    <dependency>
+    <!--<dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
       <version>1.1.10</version>
-    </dependency>
+    </dependency>-->
     <!--mysql数据库驱动 -->
     <dependency>
       <groupId>mysql</groupId>
@@ -179,7 +191,11 @@
           <artifactId>httpclient</artifactId>
           <version>4.5.6</version>
       </dependency>
-
+      <!--solr 搜索服务器-->
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-data-solr</artifactId>
+      </dependency>
   </dependencies>
 
   <build>
@@ -203,7 +219,7 @@
           </plugin>
       </plugins>
   </build>
-  <!--  <profiles>
+    <profiles>
     <profile>
         <id>dev</id>
         <properties>
@@ -219,5 +235,5 @@
             <profileActive>produce</profileActive>
         </properties>
     </profile>
-    </profiles>-->
+    </profiles>
 </project>

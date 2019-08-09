@@ -47,6 +47,13 @@ public interface BizArticleMapper extends BaseMapper<BizArticle> {
     BizArticle querySingleBizArtcle(BizArticle bizArticle);
 
     /**
+     * 条件查询
+     * @param bizArticle
+     * @return
+     */
+    BizArticle querySingleBizArtcleIgnoreContent(BizArticle bizArticle);
+
+    /**
      * 近六个月的文章统计
      * @return
      */

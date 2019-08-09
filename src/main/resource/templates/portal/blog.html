@@ -26,7 +26,16 @@
         <script src="../../static/portal/js/main.js"></script>
     </head>
 
-
+<style type="text/css">
+    .form-center input,.form-center input{
+        height: 50px;
+        padding-left: 60px;
+    }
+    .form-control-feedback {
+        line-height: 50px;
+        right: 20px;
+    }
+</style>
 <body>
 
     <nav>
@@ -103,15 +112,20 @@
                 <div class="side-bar" >
                     <div class="search">
                         <fieldset>
+                            <span class="form-control-feedback glyphicon glyphicon-search" style="color: rgb(161, 160, 160); text-shadow: rgb(145, 145, 145) 145px 145px 145px; font-size: 20px;z-index:100" ></span>
+                            <span style="display:inline-block;width:50px;height:50px;position:absolute;right:15px;z-index:100;cursor: pointer;"  onclick="search()"></span>
                             <input name="search" type="text" class="form-control" id="search" placeholder="Search..." required="">
                         </fieldset>
                     </div>
-                    <div class="archives">
+                    <div class="categories">
                         <div class="sidebar-heding">
-                            <h2>Archives</h2>
+                            <h2>Categories</h2>
                         </div>
-                        <ul id="recentSixMonthTotal">
-                            <li><a href="#">> 2018 September (4)</a></li>
+                        <div id="groupAritcle"></div>
+                        <ul   th:fragment="article_groupAritcle" th:unless="not${groupAritcles}">
+                            <li  th:each="groupAritcle:${groupAritcles}">
+                                <a href="javascript:void(0)" th:text="${groupAritcle.name}+'('+${groupAritcle.count}+')'" th:onclick="quueryArticleGroup([[${groupAritcle.typeId}]])">> Lifestyle (7)</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="recent-posts">
@@ -138,15 +152,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="categories">
+                    <div class="archives">
                         <div class="sidebar-heding">
-                            <h2>Categories</h2>
+                            <h2>Archives</h2>
                         </div>
-                        <div id="groupAritcle"></div>
-                        <ul   th:fragment="article_groupAritcle" th:unless="not${groupAritcles}">
-                            <li  th:each="groupAritcle:${groupAritcles}">
-                                <a href="javascript:void(0)" th:text="${groupAritcle.name}+'('+${groupAritcle.count}+')'" th:onclick="quueryArticleGroup([[${groupAritcle.typeId}]])">> Lifestyle (7)</a>
-                            </li>
+                        <ul id="recentSixMonthTotal">
+                            <li><a href="#">> 2018 September (4)</a></li>
                         </ul>
                     </div>
                     <div class="latest-gallery">
@@ -288,7 +299,25 @@
                 }
             })
         }
+        /**
+         * 搜索
+         * */
+        function search(){
+            // openPostWindow("../portal/search", $("#search").val())
+            window.open("../solr/search?condition="+ $("#search").val()+"&start=0&limit=20")
+        }
+        function openPostWindow(url, params) {
+            var newWin = window.open()
+            var formStr = '';
+            //设置样式为隐藏，打开新标签再跳转页面前，如果有可现实的表单选项，用户会看到表单内容数据
+            formStr = '<form style="visibility:hidden;" method="POST" action="' + url + '">' +
+                '<input type="hidden" name="condition" value="' + params + '" />' +
+                '</form>';
 
+            newWin.document.body.innerHTML = formStr;
+            newWin.document.forms[0].submit();
+            return newWin;
+        }
         var total = "[[${resources.total}]]",//数据总条数
             pageNumber = 1,//当前页
             pageSize = 4, //每页显示的条数

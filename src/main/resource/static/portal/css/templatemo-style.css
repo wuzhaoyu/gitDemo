@@ -991,6 +991,15 @@ footer a:hover {
   font-weight: 300;
 }
 
+.blog-post .text-content .title {
+  margin-top: 5px;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
 .blog-post .text-content p {
   color: #bbb;
   font-size: 16px;
