@@ -21,7 +21,7 @@
         <script src="../../static/portal/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="../../static/js/common/common.js"></script>
         <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
-
+        <script src="../../static/portal/js/vendor/bootstrap-suggest.js"></script>
         <script src="../../static/portal/js/plugins.js"></script>
         <script src="../../static/portal/js/main.js"></script>
     </head>
@@ -112,10 +112,17 @@
                 <div class="side-bar" >
                     <div class="search">
                         <fieldset>
-                            <span class="form-control-feedback glyphicon glyphicon-search" style="color: rgb(161, 160, 160); text-shadow: rgb(145, 145, 145) 145px 145px 145px; font-size: 20px;z-index:100" ></span>
-                            <span style="display:inline-block;width:50px;height:50px;position:absolute;right:15px;z-index:100;cursor: pointer;"  onclick="search()"></span>
-                            <input name="search" type="text" class="form-control" id="search" placeholder="Search..." required="">
+                            <div class="input-group" style="width: 350px">
+                                <span class="form-control-feedback glyphicon glyphicon-search" style="color: rgb(161, 160, 160); text-shadow: rgb(145, 145, 145) 145px 145px 145px; font-size: 20px;z-index:100" ></span>
+                                <span style="display:inline-block;width:50px;height:50px;position:absolute;right:15px;z-index:100;cursor: pointer;"  onclick="search()"></span>
+                                <input name="search" type="text" class="form-control" id="admdirector" placeholder="Search..." required="">
+                                <!--                            <input type="text" class="form-control" id="admdirector" >-->
+                                <div class="input-group-btn" >
+                                    <ul class="dropdown-menu dropdown-menu-right" role="menu"></ul>
+                                </div>
+                            </div>
                         </fieldset>
+
                     </div>
                     <div class="categories">
                         <div class="sidebar-heding">
@@ -240,10 +247,46 @@
             initRightArchives();
             initLoadRecentPosts();
             initLoadArticleGroup();
+
+
         });
         $("#footer-way").load("/public/footer.html")
         $(".overlay-menu").load("/public/catalog.html")
         // $("#right_meun").load("/public/right.html")
+        //回车事件绑定
+        $('#admdirector').bind('keyup', function(event) {
+            if (event.keyCode == "13") {
+                //回车执行查询
+                search()
+            }
+        });
+        var admdirector = $("#admdirector").bsSuggest({
+            indexId: 4, //data.value 的第几个数据，作为input输入框的内容
+            indexKey: 0, //data.value 的第几个数据，作为input输入框的内容
+            allowNoKeyword: false, //是否允许无关键字时请求数据
+            multiWord: false, //以分隔符号分割的多关键字支持
+            separator: ",", //多关键字支持时的分隔符，默认为空格
+            getDataMethod: "url", //获取数据的方式，总是从 URL 获取
+            effectiveFields:["java"],
+            effectiveFieldsAlias:{java: "关键字"},
+            showHeader: true,
+            url: '../solr/spellCheck?keywords=', /*优先从url ajax 请求 json 帮助数据，注意最后一个参数为关键字请求参数*/
+            processData: function(json){// url 获取数据时，对数据的处理，作为 getData 的回调函数
+                var i, len, data = {value: []};
+                if(!json || json.length == 0) {
+                    return false;
+                }
+                len = json.length;
+                for (i = 0; i < len; i++) {
+                    data.value.push({
+                        "java": json[i].java,
+                    });
+                }
+                console.log(data);
+                return data;
+            }
+        });
+
         /**
          ** 右侧档案数据
          * */
@@ -304,7 +347,7 @@
          * */
         function search(){
             // openPostWindow("../portal/search", $("#search").val())
-            window.open("../solr/search?condition="+ $("#search").val()+"&start=0&limit=20")
+            window.open("../solr/search?condition="+ $("#admdirector").val()+"&start=0&limit=20")
         }
         function openPostWindow(url, params) {
             var newWin = window.open()

@@ -5,53 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cce73c90-221c-41a9-9284-e8b1f0f52159" name="Default" comment="配置">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_solr_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_4_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/static/portal/img/basketball-ring.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OnTheWay_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringBoot01_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringBoot01_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/static/portal/js/vendor/bootstrap-suggest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnTheWay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnTheWay.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/application-produce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application-produce.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/static/portal/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/static/portal/css/templatemo-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/single-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/BeanFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/ClassLoadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/wzy/DateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wzy/SystemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html" afterDir="false" />
     </list>
     <list id="f4cede8f-5321-43b1-9878-9c04e8e3ddb6" name="DontCare" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,10 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="105" column="41" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="41" />
+            <state relative-caret-position="1034">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,12 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1826">
+              <caret line="106" column="80" selection-start-line="106" selection-start-column="80" selection-end-line="106" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="271" column="90" lean-forward="true" selection-start-line="271" selection-start-column="90" selection-end-line="271" selection-end-column="90" />
+            <state relative-caret-position="216">
+              <caret line="306" column="35" selection-start-line="306" selection-start-column="35" selection-end-line="306" selection-end-column="35" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#search#0;class#SolrController#0" />
               </folding>
             </state>
@@ -109,19 +82,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/springReporsitory/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
+        <entry file="jar://F:/springReporsitory/repository/org/apache/solr/solr-solrj/7.4.0/solr-solrj-7.4.0.jar!/org/apache/solr/client/solrj/SolrClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3432">
-              <caret line="189" column="25" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
+            <state relative-caret-position="103">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/application-produce.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            <state relative-caret-position="748">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -129,29 +102,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3124">
-              <caret line="183" column="95" selection-start-line="183" selection-start-column="95" selection-end-line="183" selection-end-column="95" />
+            <state relative-caret-position="431">
+              <caret line="234" column="49" selection-start-line="234" selection-start-column="49" selection-end-line="234" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#16#23#1" expanded="true" />
+                <element signature="e#16#23#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5808">
-              <caret line="306" column="90" selection-start-line="306" selection-start-column="71" selection-end-line="306" selection-end-column="90" />
+            <state relative-caret-position="91">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="e#16#23#1" expanded="true" />
+                <element signature="e#16#23#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,11 +177,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>initLoadRecentPosts</find>
-      <find>recentSixMonthTotal</find>
-      <find>groupAritcles</find>
-      <find>quueryArticleGroup</find>
-      <find>page_totalnum</find>
       <find>recentPosts</find>
       <find>deb</find>
       <find>queryCondition</find>
@@ -222,12 +196,17 @@
       <find>logback</find>
       <find>qos</find>
       <find>orm-control-feedback</find>
-      <find>render</find>
       <find>solrTemplate</find>
       <find>.blog-post .text-content span</find>
       <find>dateConditon</find>
       <find>quueryRightArchives</find>
       <find>contents_refresh</find>
+      <find>pageNumber</find>
+      <find>render</find>
+      <find>search</find>
+      <find>MultiMapSolrParams</find>
+      <find>MultipartRequestParser</find>
+      <find>admdirector</find>
     </findStrings>
     <replaceStrings>
       <replace>../../static/assets</replace>
@@ -278,7 +257,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/resource/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/resource/application-produce.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/mapper/BizArticleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/BizArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/grid.html" />
@@ -288,9 +266,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/transmint/PortalController.java" />
         <option value="$PROJECT_DIR$/src/main/resource/static/portal/css/templatemo-style.css" />
         <option value="$PROJECT_DIR$/src/main/resource/application-dev.yml" />
-        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/application-produce.yml" />
         <option value="$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/portal/blog.html" />
       </list>
     </option>
   </component>
@@ -347,7 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -452,6 +430,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -463,10 +479,56 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="portal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wzy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wzy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnTheWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnTheWay" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wzy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -486,7 +548,7 @@
     <property name="SearchEverywhereHistoryKey" value="SpringBootBan&#9;PSI&#9;JAVA://org.springframework.boot.SpringBootBanner&#10;JobFac&#9;PSI&#9;JAVA://org.quartz.spi.JobFactory&#10;initExceptionHandlerAdviceCache&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#initExceptionHandlerAdviceCache&#10;addResourceHandlers&#9;ACTION&#9;null&#10;addErrorPages&#9;PSI&#9;JAVA://org.springframework.boot.web.server.ErrorPageRegistry#addErrorPages&#10;EmbeddedServletContainer&#9;PSI&#9;JAVA://com.wzy.config.TomcatConfig#embeddedServletContainerFactory&#10;containerCustomizer&#9;PSI&#9;JAVA://com.wzy.SystemApplication#containerCustomizer&#10;ErrorMvcAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration&#10;BasicErrorController&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resource/templates/portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resource/static/portal/js/vendor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -511,11 +573,11 @@
       <recent name="com.wzy.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\OnTheWay\src\main\resource\static\portal\js\vendor" />
+      <recent name="G:\OnTheWay\target\classes" />
+      <recent name="G:\OnTheWay\src\main\java\com\wzy\controller\system" />
       <recent name="G:\OnTheWay\src\main\resource\templates\portal" />
       <recent name="G:\OnTheWay\src\main\resource\static\portal\img" />
-      <recent name="G:\OnTheWay\src\main\resource" />
-      <recent name="G:\OnTheWay\src\main\resource\static\portal\js" />
-      <recent name="G:\OnTheWay\src\main\resource\static\portal\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -719,6 +781,11 @@
       <workItem from="1565090671688" duration="2699000" />
       <workItem from="1565265741135" duration="1843000" />
       <workItem from="1565311913449" duration="1223000" />
+      <workItem from="1565365244479" duration="1553000" />
+      <workItem from="1565419385363" duration="7000" />
+      <workItem from="1565446395366" duration="6927000" />
+      <workItem from="1565612464735" duration="873000" />
+      <workItem from="1565692846493" duration="7398000" />
     </task>
     <task id="LOCAL-00001" summary="admin管理页面">
       <created>1551358583185</created>
@@ -913,7 +980,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="510763000" />
+    <option name="totallyTimeSpent" value="527521000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -927,7 +994,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27882037" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -938,7 +1005,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.15220484" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22759601" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953146" weight="0.44381222" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953146" weight="0.16500711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.32951945" />
@@ -946,10 +1013,10 @@
       <window_info anchor="bottom" id="MyBatis Sql Log" order="8" weight="0.18776672" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5046854" side_tool="true" weight="0.81134754" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2119488" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28085107" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2631579" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32859176" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49732262" visible="true" weight="0.44381222" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49732262" visible="true" weight="0.55192035" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
@@ -1089,6 +1156,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>termMap.values()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>highlight.get(document.getFieldValue(&quot;id&quot;)).size()&gt;0</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1128,32 +1200,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>e</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/springReporsitory/repository/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://F:/springReporsitory/repository/org/springframework/data/spring-data-keyvalue/2.1.3.RELEASE/spring-data-keyvalue-2.1.3.RELEASE.jar!/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1269,16 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/Observer/ObserverPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1342,23 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/application-produce.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1436,16 +1458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="105" column="41" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/springReporsitory/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3432">
@@ -1455,35 +1467,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="748">
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="36" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html">
+    <entry file="jar://F:/springReporsitory/repository/org/apache/solr/solr-solrj/7.4.0/solr-solrj-7.4.0.jar!/org/apache/solr/common/params/MultiMapSolrParams.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3124">
-          <caret line="183" column="95" selection-start-line="183" selection-start-column="95" selection-end-line="183" selection-end-column="95" />
+        <state relative-caret-position="124">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/blog.html">
+    <entry file="file://$PROJECT_DIR$/target/classes/SolrRequestParsers.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/portal/BizArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5808">
-          <caret line="306" column="90" selection-start-line="306" selection-start-column="71" selection-end-line="306" selection-end-column="90" />
+        <state relative-caret-position="2112">
+          <caret line="118" column="70" selection-start-line="118" selection-start-column="70" selection-end-line="118" selection-end-column="70" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/BizArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="106" column="80" selection-start-line="106" selection-start-column="80" selection-end-line="106" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application-produce.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1508,12 +1542,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/static/portal/js/vendor/bootstrap-suggest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22418">
+          <caret line="1019" lean-forward="true" selection-start-line="1019" selection-end-line="1019" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/springReporsitory/repository/org/apache/solr/solr-solrj/7.4.0/solr-solrj-7.4.0.jar!/org/apache/solr/client/solrj/SolrClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/search_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="234" column="49" selection-start-line="234" selection-start-column="49" selection-end-line="234" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#16#23#1" expanded="true" />
+            <element signature="e#16#23#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/controller/system/SolrController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="271" column="90" lean-forward="true" selection-start-line="271" selection-start-column="90" selection-end-line="271" selection-end-column="90" />
+        <state relative-caret-position="216">
+          <caret line="306" column="35" selection-start-line="306" selection-start-column="35" selection-end-line="306" selection-end-column="35" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#search#0;class#SolrController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/portal/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#16#23#1" expanded="true" />
+            <element signature="e#16#23#1" expanded="true" />
           </folding>
         </state>
       </provider>

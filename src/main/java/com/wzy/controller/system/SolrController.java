@@ -1,25 +1,23 @@
 package com.wzy.controller.system;
-import com.alibaba.fastjson.JSONObject;
-import com.baomidou.mybatisplus.plugins.Page;
-import com.wzy.common.ResultCode;
-import com.wzy.common.ResultMsg;
-import com.wzy.domain.SysContent;
-import com.wzy.service.SysContentService;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.client.solrj.response.SpellCheckResponse;
+import org.apache.solr.client.solrj.response.SuggesterResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
-import org.apache.solr.common.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.CollectionUtils;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 
+import java.net.URLEncoder;
 import java.util.*;
 
 /**
@@ -190,23 +188,23 @@ public class SolrController extends AbstractController {
     @RequestMapping("search")
     public String searchPage(String condition, int start,int limit,String flag,Model model){
         try {
+//            String enCondition = URLEncoder.encode(condition, "UTF-8");
+            String enCondition = condition;
             SolrQuery params = new SolrQuery();
             //查询条件, 这里的 q 对应 下面图片标红的地方
             StringBuffer stringBuffer = new StringBuffer();
             if(StringUtils.isEmpty(condition)){
                 params.set("q", "*:*");
             }else{
-                stringBuffer.append("title:*"+ condition +"* OR ");
-                stringBuffer.append("description:*"+ condition +"* OR ");
-                stringBuffer.append("keywords:*"+ condition +"* ");
+                stringBuffer.append("title:"+ enCondition +" OR ");
+                stringBuffer.append("description:"+ enCondition +" OR ");
+                stringBuffer.append("keywords:"+ enCondition );
                 params.set("q", stringBuffer.toString());
                 //默认查询的字段
 //                params.set("df", "title");
             }
 //            params.set("q", "*:*");
             //过滤条件
-//          params.set("fq", "title:*"+ condition +"*");
-
             //排序
 //            params.addSort("product_price", SolrQuery.ORDER.asc);
 
@@ -225,10 +223,6 @@ public class SolrController extends AbstractController {
             params.setHighlight(true);
             params.setHighlightRequireFieldMatch(true);
             params.setHighlightFragsize(150);
-            //指定高亮域
-           /* params.addHighlightField("title");
-            params.addHighlightField("description");
-            params.addHighlightField("keywords");*/
             //设置前缀
             params.setHighlightSimplePre("<label style='color:#1A94E6'>");
             //设置后缀
@@ -249,14 +243,29 @@ public class SolrController extends AbstractController {
             SolrDocument document = null;
             for(int i=0;i<results.size();i++) {
                 document = results.get(i);
-                if(highlight.get(document.getFieldValue("id")).isEmpty()){
+                Map<String, List<String>> idMap = highlight.get(document.getFieldValue("id"));
+                if(CollectionUtils.isEmpty(idMap)){
                     document.setField("title",String.valueOf(document.getFieldValue("title")).replace(condition,"<label style='color:#1A94E6'>"+condition+"</label>"));
                     document.setField("description",String.valueOf(document.getFieldValue("description")).replace(condition,"<label style='color:#1A94E6'>"+condition+"</label>"));
                     document.setField("keywords",String.valueOf(document.getFieldValue("keywords")).replace(condition,"<label style='color:#1A94E6'>"+condition+"</label>"));
                 }else{
-                    document.setField("title", org.apache.commons.lang3.StringUtils.strip(highlight.get(document.getFieldValue("id")).get("title").toString(),"[]"));
-                    document.setField("description", org.apache.commons.lang3.StringUtils.strip(highlight.get(document.getFieldValue("id")).get("description").toString(),"[]"));
-                    document.setField("keywords", org.apache.commons.lang3.StringUtils.strip(highlight.get(document.getFieldValue("id")).get("keywords").toString(),"[]"));
+                    if(Objects.nonNull(idMap.get("title"))){
+                        document.setField("title", org.apache.commons.lang3.StringUtils.strip(String.valueOf(highlight.get(document.getFieldValue("id")).get("title")),"[]"));
+                    }else{
+                        document.setField("title",String.valueOf(document.getFieldValue("title")).replace(condition,"<label style='color:#1A94E6'>"+condition+"</label>"));
+                    }
+                    if(Objects.nonNull(idMap.get("description"))){
+                        document.setField("description", org.apache.commons.lang3.StringUtils.strip(String.valueOf(highlight.get(document.getFieldValue("id")).get("description")),"[]"));
+                    }else{
+                        document.setField("description",String.valueOf(document.getFieldValue("description")).replace(condition,"<label style='color:#1A94E6'>"+condition+"</label>"));
+                    }
+                    if(Objects.nonNull(idMap.get("keywords"))){
+                        document.setField("keywords", org.apache.commons.lang3.StringUtils.strip(String.valueOf(highlight.get(document.getFieldValue("id")).get("keywords")),"[]"));
+                    }else{
+                        document.setField("keywords",String.valueOf(document.getFieldValue("keywords")).replace(condition,"<label style='color:#1A94E6'>"+condition+"</label>"));
+                    }
+//                    document.setField("description", org.apache.commons.lang3.StringUtils.strip(String.valueOf(highlight.get(document.getFieldValue("id")).get("description")),"[]"));
+//                    document.setField("keywords", org.apache.commons.lang3.StringUtils.strip(String.valueOf(highlight.get(document.getFieldValue("id")).get("keywords")),"[]"));
 
                 }
                  list.add(document);
@@ -272,6 +281,37 @@ public class SolrController extends AbstractController {
         return "all".equals(flag)?"portal/search_blog::article_type":"portal/search_blog";
     }
 
-
+    /**
+     * 综合查询: 在综合查询中, 有按条件查询, 条件过滤, 排序, 分页, 高亮显示, 获取部分域信息
+     * @return
+     */
+    @RequestMapping("spellCheck")
+    @ResponseBody
+    public List<Map<String,String>> SpellCheck( String keywords){
+        List<Map<String,String>> result = new ArrayList<>();
+       try{
+           SolrQuery params = new SolrQuery();
+           params.setRequestHandler("/suggest");
+           params.set("suggest.build", true);
+           params.set("suggest.q", keywords);
+           params.set("suggest.dictionary", "mySuggester");
+           params.set("suggest", true);
+           QueryResponse response = null;
+           response = client.query(params);
+           SuggesterResponse suggest = response.getSuggesterResponse();
+           Map<String, List<String>> termMap = suggest.getSuggestedTerms();
+           for (List<String> strs : termMap.values()) {
+               for (String s : strs) {
+                   Map<String,String> map = new HashMap<>();
+                   map.put("java",s);
+                   result.add(map);
+                   System.out.println(s);
+               }
+           }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 }
 

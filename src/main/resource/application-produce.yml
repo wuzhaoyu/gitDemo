@@ -34,3 +34,6 @@ spring:
           min-idle: 0
       # 连接超时时间（毫秒）
       timeout: 2s
+  data:
+    solr:
+      host: http://172.19.121.182:7070/solr/articles
