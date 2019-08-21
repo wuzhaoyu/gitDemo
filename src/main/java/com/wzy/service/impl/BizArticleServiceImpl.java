@@ -98,7 +98,6 @@ public class BizArticleServiceImpl extends ServiceImpl<BizArticleMapper, BizArti
         map.put("name","全部");
         map.put("typeId","");
         map.put("count",total);
-//        maps.add(map);
         maps.add(0,map);
         return maps;
     }

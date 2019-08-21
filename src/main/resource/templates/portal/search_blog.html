@@ -4,26 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>On The Way</title>
-
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="referrer" content="no-referrer"/>
-    <link rel="stylesheet" href="../../static/portal/css/bootstrap.css">
-    <link rel="stylesheet" href="../../static/portal/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="../../static/portal/css/fontAwesome.css">
-    <link rel="stylesheet" href="../../static/portal/css/light-box.css">
-    <link rel="stylesheet" href="../../static/portal/css/templatemo-style.css">
+    <link rel="import" href="fotter.html" id="page2"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <script src="../../static/portal/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <script src="../../static/portal/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="../../static/js/common/common.js"></script>
-    <script src="../../static/portal/js/vendor/bootstrap.min.js"></script>
-
-    <script src="../../static/portal/js/plugins.js"></script>
-    <script src="../../static/portal/js/main.js"></script>
+    <script src="../../static/portal/js/common/commonJS.js"></script>
+    <script src="../../static/portal/js/common/commonCss.js"></script>
 </head>
 
 
@@ -166,8 +154,6 @@
     $("#footer-way").load("/public/footer.html")
     $(".overlay-menu").load("/public/catalog.html")
 
-
-
     var total = "[[${resources.total}]]",//数据总条数
         pageNumber = 1,//当前页
         pageSize = 20, //每页显示的条数
@@ -200,7 +186,7 @@
         $ul = $('<ul class="page-number"></ul>');
         var start = 1;
         pages = Math.ceil(total / pageSize)
-        var var1 = total/20
+        var var1 = total/pageSize
         edges = 1
         if(var1 <= 1){
             playes = 1
@@ -212,13 +198,6 @@
             playes = 5
             edges = 2
         }
-       /* if (total <= 20) {
-            playes = 1
-            edges = 1
-        } else {
-            playes = 5
-            edges = 2
-        }*/
         var end = pages;
         if (playes % 2) {
             //playes是奇数
